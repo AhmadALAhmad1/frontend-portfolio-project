@@ -1,0 +1,145 @@
+*{
+    /* border: 1px solid; */
+    margin: 0;
+}
+
+.backGround{
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1e1e1e;
+}
+
+.headerImg{
+width: 25%;
+background-color: black;
+height: 80%;
+border-radius: 20px;
+z-index: 1;
+}
+.headerMainContent{
+width: 30%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-around;
+height: 50vh;
+
+}
+.hello{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+color: white;
+}
+.adminField {
+    display: flex;
+    align-items: flex-end;
+
+}
+.adminsFieldName{
+    color: #e35969;
+}
+.headerMainContent button{
+    border-radius: 10px;
+    background-color: #e35969;
+    padding: 5px 10px;
+    color: white;
+}
+.aboutMeBtn:hover{
+    background-color: #e97280;
+    cursor: pointer;
+}
+.headerContent{
+    color: white;
+    text-align: start;
+    line-height: 23px;
+}
+.skills{
+    display: flex;
+    color: #979797;
+}
+
+
+
+
+
+
+.headerBtns{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+/* .navBtn{
+
+} */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 40vh;
+    transform: translate(50%, 50%);
+    margin-bottom: 35vh;
+    }
+.slide-button{
+    background: #e35969;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.slide-button img{
+margin: 10px;
+width: 40px;
+
+}
+.slide-button-info{
+font-family: arial;
+font-size: 0px;
+width: 0;
+color: #fff;
+line-height: 55px;
+height: 55px;
+right: 50px;
+position: absolute;
+background: #e35969;
+border-radius: 20px;
+z-index: -1;
+transition: width 1s, height 1s;
+-webkit-transition: width 1s, height 1s;
+}
+.slide-button:hover .slide-button-info{
+width: 150px;
+border: 1px solid #fff;
+font-size: 20px;
+}
+
+
+
+
+/* 
+body::before {
+    content: "";
+    z-index: -1;
+    height: 0;
+    width: 0;
+    border-right: 20em solid transparent;
+    border-bottom: 46em solid #e35969;
+    border-top: 38em solid transparent;
+} */
+
+body::before {
+    content: "";
+    z-index: 0;
+    border-left: 10rem solid #e35969;
+    border-bottom: 42.3rem solid transparent;
+    border-top: 5rem solid transparent;
+    position: absolute;
+} 
