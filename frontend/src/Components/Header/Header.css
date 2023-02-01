@@ -1,145 +1,167 @@
-*{
-    /* border: 1px solid; */
-    margin: 0;
+
+    @media only screen and (min-width: 600px) {
+        *{
+            /* border: 1px solid; */
+            margin: 0;
+        }
+        .border{
+            border: 3px #e35969 solid;
+            border-radius: 1rem;
+            height: 30vh;
+        }
+        .section1Ancers{
+            display: flex;
+            flex-direction: column;
+            height: 30vh;
+            justify-content: space-around;
+        }
+        .section1Ancer{
+            border: white solid;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .section1AncerImg{
+            width: 40px;
+    
+        }
+        .section1Desktop{
+            height: 80vh;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #1e1e1e;
+        }
+        .section1Content{
+            display: flex ;
+            flex-direction: column;
+            height: 40vh;
+            justify-content: space-around;
+        }
+        .domain{
+            display: flex;
+        }
+        
+        .contactSection1Btn{
+            background-color: transparent;
+            border: #e35969 solid 0.1rem;
+            border-radius: 20px;
+            padding: 5px 10px;
+            width: 15vh;
+            color: #e35969;
+        }
+        .contactSection1Btn:hover{
+            background-color: #e35969;
+            cursor: pointer;
+            color: #000;
+        }
+        .contactSection1Btn:active{
+            background-color: #1e1e1e;
+            cursor: pointer;
+            color: #e35969;
+        }
+        .section1Img{
+            width: 25%;
+            background-color: black;
+            height: 80%;
+            border-radius: 20px;
+            z-index: 1;
+            border-bottom:4px #e35969 solid;
+            }
+            .salutMyName{
+                display: flex;
+            }
+            .salutName{
+                color: #e35969;
+            }
 }
 
-.backGround{
-    height: 100vh;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #1e1e1e;
-}
-
-.headerImg{
-width: 25%;
-background-color: black;
-height: 80%;
-border-radius: 20px;
-z-index: 1;
-}
-.headerMainContent{
-width: 30%;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: space-around;
-height: 50vh;
-
-}
-.hello{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-color: white;
-}
-.adminField {
-    display: flex;
-    align-items: flex-end;
-
-}
-.adminsFieldName{
-    color: #e35969;
-}
-.headerMainContent button{
-    border-radius: 10px;
-    background-color: #e35969;
-    padding: 5px 10px;
-    color: white;
-}
-.aboutMeBtn:hover{
-    background-color: #e97280;
-    cursor: pointer;
-}
-.headerContent{
-    color: white;
-    text-align: start;
-    line-height: 23px;
-}
-.skills{
-    display: flex;
-    color: #979797;
-}
-
-
-
-
-
-
-.headerBtns{
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-}
-
-/* .navBtn{
-
-} */
-
-.container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 40vh;
-    transform: translate(50%, 50%);
-    margin-bottom: 35vh;
+@media only screen and (max-width: 600px) {
+    *{
+        border: 1px solid;
+        margin: 0;
     }
-.slide-button{
-    background: #e35969;
-    color: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
+    .border{
+       display: none;
+    }
+    .section1Ancers{
+        display: flex;
+        width: 35vh;
+        height: 10vh;
+        justify-content: space-around;
+    }
+    .section1Ancer{
+        border: white solid;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1AncerImg{
+        width: 40px;
+
+    }
+   
+    .section1Desktop{
+        height: 140vh;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #1e1e1e;
+    }
+    .section1Content{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        height: 40vh;
+        justify-content: space-around;
+    }
+    .domain{
+        display: flex;
+    }
+    
+    .contactSection1Btn{
+        background-color: transparent;
+        border: #e35969 solid 0.1rem;
+        border-radius: 20px;
+        padding: 5px 10px;
+        width: 20vh;
+        color: #e35969;
+    }
+    .contactSection1Btn:hover{
+        background-color: #e35969;
+        cursor: pointer;
+        color: #000;
+    }
+    .contactSection1Btn:active{
+        background-color: #1e1e1e;
+        cursor: pointer;
+        color: #e35969;
+    }
+    .section1Img{
+        width: 30vh;
+        background-color: black;
+        height: 50vh;
+        border-radius: 20px;
+        z-index: 1;
+        border-bottom:4px #e35969 solid;
+        }
+        .salutMyName{
+            display: flex;
+        }
+        .salutName{
+            color: #e35969;
+        }
+        .salut{
+            display: flex;
+            align-items: center;
+        }
 }
-.slide-button img{
-margin: 10px;
-width: 40px;
-
-}
-.slide-button-info{
-font-family: arial;
-font-size: 0px;
-width: 0;
-color: #fff;
-line-height: 55px;
-height: 55px;
-right: 50px;
-position: absolute;
-background: #e35969;
-border-radius: 20px;
-z-index: -1;
-transition: width 1s, height 1s;
--webkit-transition: width 1s, height 1s;
-}
-.slide-button:hover .slide-button-info{
-width: 150px;
-border: 1px solid #fff;
-font-size: 20px;
-}
-
-
-
-
-/* 
-body::before {
-    content: "";
-    z-index: -1;
-    height: 0;
-    width: 0;
-    border-right: 20em solid transparent;
-    border-bottom: 46em solid #e35969;
-    border-top: 38em solid transparent;
-} */
-
-body::before {
-    content: "";
-    z-index: 0;
-    border-left: 10rem solid #e35969;
-    border-bottom: 42.3rem solid transparent;
-    border-top: 5rem solid transparent;
-    position: absolute;
-} 
