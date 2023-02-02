@@ -1,12 +1,10 @@
 import './App.css';
-// import Home from './components/Home';
+import Dashboard from './Components/Dashboard/Dashboard.jsx';
 
 function App() {
   return (
     <div className="App">
-
-
-
+      <Dashboard/>
     </div>
   );
 }
