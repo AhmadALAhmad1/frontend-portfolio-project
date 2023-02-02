@@ -1,3 +1,12 @@
+button{
+    border:0;
+    border-radius: 40px;
+    background-color: rgb(13, 11, 26);
+    color:white;
+    width:12vw;
+    height: 4vw;
+    font-size: 2vw;
+}
 .DashNav{
     background-color: black;
     color:white;
@@ -8,20 +17,26 @@
     height: 100px;
     align-items: center;
 }
+
 .DashNav h1{
     font-size: 2.5rem;
 }
 .navLeft{
+    padding:0 2vw;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
+}
+.logOut{
+    margin-bottom: 1vh;
 }
 .DashBody{
 background-color: rgb(25, 26, 51);
 display: flex;
 flex-flow:row wrap;
 height:100vh;
+justify-content: space-between;
 }
 .aside{
     display: flex;
@@ -31,74 +46,124 @@ height:100vh;
 }
 .asideElement{
     background-color: rgb(84, 71, 71);
-    padding:2vh 2vw;
-    margin:1px;
+    padding:4.1vh 4vw;
+    margin:0 0 0.2vh 0;
 width:7rem;
 color:white;
 font-size: 1.5rem;
 font-family:Arial, Helvetica, sans-serif;
 font-weight: bold;
 }
+.asideElement:hover{
+    background-color: white;
+    color:rgb(14, 70, 14);
+}
+.infoSectionProfile{
+    margin-top:9vh; 
+    /* display:none;    */
+    
+}
 label{
     color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    /* border:10px solid pink; */
+    padding-top:2vh;
 }
 .input{
-    margin:1rem;
+    margin:1vw;
     display:flex;
     flex-flow:row wrap;
     justify-content: space-between;
+
 }
 input{
     border:0;
-    margin-left:10vh;
-    border-radius:20px;
+    border-radius:40px;
     background-color: rgb(198, 47, 47);
-    height:5px;
+    height:0.1vh;
 
 }
-.infoSection{
-    width:35vh;
-    padding:5vh;
-}
-.profilePictureSection {
+
+.save{
+    margin-top:4vw;
+    margin-left:15vw;
+    }
+.pictureSectionProfile {
     width:56vw;
-    margin:5vw;
-    display: flex;
+        /* display: none; */
+        display: flex;
 flex-flow:column wrap;
     align-items: center;
     flex-basis: 20vh;
-    
-
+padding:8vh 10vw;
+margin-top:8vh;
 }
-.profilePictureSection img{
-    width:20vh;
+
+.pictureSectionProfile .imgSection img{
+    width:10vw;
+    height:auto;
     flex-basis:20vw;
 border-radius: 15px;    
 position:relative;
 
 }
-button{
-    border:0;
-    border-radius: 25px;
-    background-color: rgb(13, 11, 26);
-    color:white;
-    width:12vw;
-    height: 4vw;
-    font-size: 2vw;;
-
-}
-.save{
-margin-top:4vw;
-margin-left:15vw;
+.pinkLine{
+position:absolute;
+margin-top:-1.4vw;
+margin-left:0.7vw;
+border-bottom: 1vh solid salmon;
+border-radius:20%;
+font-size:0.5vw;
+color:transparent;
 }
 .upload{
     margin-top:5vw;
 }
-.pinkLine{
-position:absolute;
-margin-top:25vw;
-border-bottom: 10px solid salmon;
-border-radius:20%;
-font-size:10px;
-color:transparent;
+
+@media only screen and (max-width: 600px) {
+    .navRight{
+        display: flex;
+        flex-direction: row nowrap;
+        align-items: center;
+        justify-content: space-between; 
+    flex-basis:30vw;   
+    margin: auto;
+
+}
+    .navLeft{
+        display: none;
+    }
+    .navRight h1{
+font-size: 10vw;
+margin-left:5vw;
+    }
+    .DashBody {
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    justify-content: center ;
+    }
+    .aside{
+        width: 100vw;
+    }
+    .asideElement{
+        width: 100vw;
+    }
+    .infoSection{
+        width:10vw;
+    }
+    .input{
+    margin:1vw;
+    display:flex;
+    flex-flow:column wrap;
+align-items: center;    }
+
+label{
+    background-color: black;
+}  
+
+input{
+    width:1vw;
+}
 }
