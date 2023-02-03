@@ -1,0 +1,64 @@
+.main{
+    background-color: #1e1e1e;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("background.png");
+}
+.title{
+    color:white;
+    padding-top: 10vh; ;
+}
+
+
+.projectName{
+    padding-top:2vh ;
+    color: white;
+}
+
+
+
+
+
+
+.conteudo {
+    width:125vh;
+    margin: auto;
+    }
+    .gallery {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+    }
+    .gallery::-webkit-scrollbar {
+    display: none;
+    }
+    .card {
+        background-color: #4f4f4f;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 400px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .card:nth-child(odd) {
+    background: linear-gradient(-229deg,
+    Jufbd52d, O ef3a7b);
+
+    }
+    .card:nth-child(even) {
+    background: linear-gradient(-229deg,
+    Duff70af, 5fa8fs);
+    }
+.card img{
+display: flex;
+}

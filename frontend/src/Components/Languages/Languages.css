@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .background{
     height: 100vh;
@@ -10,17 +10,20 @@
     justify-content: center;
     align-items: center;
     background-color: #1e1e1e;
+    background-image: url("./background.png");
+    background-position:right;
 
 }
 .languages{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 50px;
+
 }
 .language{
     width: 25vh;
     height: 25vh;
-    background-color:wheat;
+    background-color:white;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -57,11 +60,13 @@
         display: grid;
         grid-template-columns: auto auto auto;
         gap: 25px;
+        margin-left: 10%;
+
     }
     .language{
         width: 15vh;
         height: 15vh;
-        background-color:wheat;
+        background-color:white;
         border-radius: 20px;
         display: flex;
         align-items: center;
@@ -75,14 +80,19 @@
         flex-direction: column;
         justify-content: space-around;
         rotate: -20deg;
-        position: absolute;
-        margin-left: 62vh;
         margin-bottom: 45vh;
-   
     }
-    .line{
+    .line1{
         height: 4px;
         border-radius: 20px;
         background-color: #E35969;
+
+    }
+    .line2{
+        height: 4px;
+        border-radius: 20px;
+        background-color: #E35969;
+        margin-right: 15px;
+
     }
     }
