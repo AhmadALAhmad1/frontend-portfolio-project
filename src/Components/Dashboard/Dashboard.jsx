@@ -24,7 +24,7 @@ function Dashboard(){
                     <a href="#" id='myWork' className="asideElement">My Work</a>
                     <a href="#" id='socialMediaLinks' className="asideElement">Social Media Links</a>
                 </div>
-                <div id='infoSectionProfile' className="infoSectionProfile">
+                {/* <div id='infoSectionProfile' className="infoSectionProfile">
                         <div className="input">
                             <label for='firstName'> First Name</label><input  type="text" placeholder=""  id="firstName" className="asideElement" Profile/>
                         </div>
@@ -49,7 +49,7 @@ function Dashboard(){
                     </div>
                     
                <button className="upload">Upload</button> 
-               </div>
+               </div> */}
 
             </div>
 
