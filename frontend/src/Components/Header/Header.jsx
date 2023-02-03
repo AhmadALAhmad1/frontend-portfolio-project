@@ -1,14 +1,16 @@
 import React from 'react';
 import "./Header.css";
-import pp from "./pp.png"
+import github from "./github.png"
+import twitter from "./twitter.png"
+import facebook from "./facebook.png"
 export const Header = () =>{
     return<>
       <div class="section1Desktop">
         
         <div class="section1Ancers">
-            <a href="#" class="section1Ancer"><img class="section1AncerImg" src={pp} alt="a" /></a>
-            <a href="#" class="section1Ancer"><img class="section1AncerImg" src={pp} alt="a" /></a>
-            <a href="#" class="section1Ancer"><img class="section1AncerImg" src={pp} alt="a" /></a>
+            <a href="#" class="section1Ancer"><img class="section1AncerImg" src={github} alt="a" /></a>
+            <a href="#" class="section1Ancer"><img class="section1AncerImg" src={twitter} alt="a" /></a>
+            <a href="#" class="section1Ancer"><img class="section1AncerImg" src={facebook} alt="a" /></a>
         </div>
         <div class="border"></div>
         <div class="section1Content">
@@ -28,7 +30,7 @@ export const Header = () =>{
             <div class="skills"><p>Bootstrap</p><p>/&nbsp; </p><p>Javascript</p><p>/&nbsp;</p><p>React</p></div>
             <button class="contactSection1Btn">Contact Me</button>
         </div>
-        <img src={pp} alt="a" class="section1Img" />
+        <img src={github} alt="a" class="section1Img" />
     </div>
     
     
