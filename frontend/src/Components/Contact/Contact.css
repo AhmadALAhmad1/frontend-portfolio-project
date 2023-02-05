@@ -1,0 +1,27 @@
+body {
+  background-color: #000;
+}
+
+.contact {
+  background-color: black;
+}
+
+.contactMe {
+  color: #e35969;
+  font-size: 50px;
+  border-bottom: 2px #e35969 solid;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.buttom {
+  border-radius: 130px;
+  background-color: #000;
+  color: #e35969;
+  border: 1px #e35969 solid;
+  margin-top: 20px;
+}
+.container{
+  margin-top: 40px;
+  margin-left: 120px;
+}
