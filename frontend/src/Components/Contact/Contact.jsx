@@ -5,9 +5,9 @@ import "./Contact.css";
 //  import img1 from './images/twiteer.png';
 // import FacebookIcon from "@mui/icons-material/Facebook";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-//import { faCoffee } from "@fortawesome/free-solid-svg-icons"
-import {faYoutube , faGithub , faTwitter} from "@fotawesome/free-brands-svg-icons"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// //import { faCoffee } from "@fortawesome/free-solid-svg-icons"
+// import {faYoutube , faGithub , faTwitter} from "@fotawesome/free-brands-svg-icons"
 export const Contact = () => {
   return (
     <div className="contact">
@@ -35,9 +35,9 @@ export const Contact = () => {
         <button class="buttom">Submit</button>
       </div>
 <div className="img">
-<FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+{/* <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
 <FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>
-<FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+<FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon> */}
 
 </div>
 
