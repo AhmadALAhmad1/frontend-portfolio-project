@@ -28,7 +28,7 @@
             width: 40px;
     
         }
-        .section1Desktop{
+        .headerSection{
             height: 80vh;
             display: flex;
             margin: auto;
@@ -53,6 +53,7 @@
             padding: 5px 10px;
             width: 15vh;
             color: #e35969;
+            text-decoration: none;
         }
         .contactSection1Btn:hover{
             background-color: #e35969;
@@ -108,7 +109,7 @@
 
     }
    
-    .section1Desktop{
+    .headerSection{
         height: 140vh;
         display: flex;
         flex-direction: column-reverse;

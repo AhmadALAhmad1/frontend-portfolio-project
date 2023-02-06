@@ -5,13 +5,21 @@
     flex-direction: column;
     justify-content: space-around;
     background-image: url("background.png");
+    align-items: center;
 }
-.title{
-    color:white;
+.myWorkTitle{
+    color:#e35969;
     padding-top: 10vh; ;
 }
 
+.myWorkline{
+    height: 4px;
+    background-color: #e35969;
+    margin-top: 1vh;
+    width: 15vh;
+    border-radius: 20px;
 
+}
 .projectName{
     padding-top:2vh ;
     color: white;
