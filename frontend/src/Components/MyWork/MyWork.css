@@ -2,7 +2,7 @@
     border: 1px solid;
 }
 
-@media only screen and (min-width: 900px) and (max-width:2000vh) {
+@media only screen and (min-width: 970px) and (max-width:2000vh) {
 
     .main{
         background-color: #1e1e1e;
@@ -37,7 +37,7 @@
     
     
     .conteudo {
-        width:125vh;
+        width:174.6vh;
         margin: auto;
         }
         .gallery {
@@ -77,7 +77,7 @@
     display: flex;
     }
 }
-@media only screen and (min-width: 700px) and (max-width: 900px){
+@media only screen and (min-width: 700px) and (max-width: 970px){
     .main{
         background-color: #1e1e1e;
         height: 150vh;
@@ -111,7 +111,7 @@
     
     
     .conteudo {
-        width:103vh;
+        width:115.3vh;
         margin: auto;
         }
         .gallery {
@@ -186,7 +186,7 @@
     
     
     .conteudo {
-        width:55vh;
+        width:29.7vh;
         margin: auto;
      
         }
