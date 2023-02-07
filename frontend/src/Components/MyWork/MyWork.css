@@ -1,5 +1,8 @@
+.card:hover{
+ filter: drop-shadow(4px 5px 1px #000000cc);
+}
 
-
+ 
 @media only screen and (min-width: 970px) and (max-width:2000vh) {
 
     .main{
@@ -35,7 +38,7 @@
     
     
     .conteudo {
-        width: 120vh;
+        width: 950px;
         margin: auto;
         }
         .gallery {
@@ -61,6 +64,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1vh;
+        margin-right: .5vh;
     }
         .card:nth-child(odd) {
         background: linear-gradient(-229deg,
@@ -109,7 +114,7 @@
     
     
     .conteudo {
-        width:100.5vh;
+        width:632px;
         margin: auto;
         }
         .gallery {
@@ -171,6 +176,7 @@
         margin-top: 1vh;
         width: 15vh;
         border-radius: 20px;
+        margin-bottom: 5vh;
     
     }
     .projectName{
@@ -184,7 +190,7 @@
     
     
     .conteudo {
-        width:23vh;
+        width:160px;
         margin: auto;
      
         }
@@ -219,7 +225,7 @@
     display: flex;
     }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) and (min-width:100px) {
     .main{
         background-color: #1e1e1e;
         display: flex;
@@ -239,6 +245,8 @@
         margin-top: 1vh;
         width: 15vh;
         border-radius: 20px;
+        margin-bottom: 5vh;
+
     
     }
     .projectName{
@@ -252,18 +260,15 @@
     
     
     .conteudo {
-        width: 24vh;
+        width:160px;
         margin: auto;
-        margin-top: 5vh;
-        
+     
         }
         .gallery {
         display: flex;
+            flex-wrap: wrap;
          margin: auto;
             gap: 10px;
-            display: flex;
-        justify-content: center;
-        align-items: center;
         }
         
         .card {

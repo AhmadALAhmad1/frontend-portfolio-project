@@ -11,7 +11,7 @@ function App() {
     <Header></Header>
     <Languages></Languages>
     <MyWork></MyWork>
-    {/* <Contact></Contact> */}
+    <Contact></Contact>
     {/* <AdminView></AdminView> */}
 
     </div>
