@@ -1,64 +1,291 @@
-.main{
-    background-color: #1e1e1e;
-    height: 100vh;
+*{
+    border: 1px solid;
+}
+
+@media only screen and (min-width: 970px) and (max-width:2000vh) {
+
+    .main{
+        background-color: #1e1e1e;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url("background.png");
+        align-items: center;
+    }
+    .myWorkTitle{
+        color:#e35969;
+        padding-top: 10vh; ;
+    }
+    
+    .myWorkline{
+        height: 4px;
+        background-color: #e35969;
+        margin-top: 1vh;
+        width: 15vh;
+        border-radius: 20px;
+    
+    }
+    .projectName{
+        padding-top:2vh ;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    
+    .conteudo {
+        width:174.6vh;
+        margin: auto;
+        }
+        .gallery {
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        gap: 1.2rem;
+        overflow-y: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+    
+        }
+        .gallery::-webkit-scrollbar {
+        display: none;
+        }
+        .card {
+            background-color: #4f4f4f;
+        scroll-snap-align: start;
+        border-radius: 30px;
+        min-height: 400px;
+        min-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .card:nth-child(odd) {
+        background: linear-gradient(-229deg,
+        Jufbd52d, O ef3a7b);
+    
+        }
+        .card:nth-child(even) {
+        background: linear-gradient(-229deg,
+        Duff70af, 5fa8fs);
+        }
+    .card img{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-image: url("background.png");
-}
-.title{
-    color:white;
-    padding-top: 10vh; ;
-}
-
-
-.projectName{
-    padding-top:2vh ;
-    color: white;
-}
-
-
-
-
-
-
-.conteudo {
-    width:125vh;
-    margin: auto;
     }
-    .gallery {
-    display: grid;
-    grid-auto-flow: column;
-    scroll-behavior: auto;
-    gap: 1.2rem;
-    overflow-y: auto;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-
+}
+@media only screen and (min-width: 700px) and (max-width: 970px){
+    .main{
+        background-color: #1e1e1e;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url("background.png");
+        align-items: center;
     }
-    .gallery::-webkit-scrollbar {
-    display: none;
+    .myWorkTitle{
+        color:#e35969;
+        padding-top: 10vh; ;
     }
-    .card {
-        background-color: #4f4f4f;
-    scroll-snap-align: start;
-    border-radius: 30px;
-    min-height: 400px;
-    min-width: 300px;
+    
+    .myWorkline{
+        height: 4px;
+        background-color: #e35969;
+        margin-top: 1vh;
+        width: 15vh;
+        border-radius: 20px;
+    
+    }
+    .projectName{
+        padding-top:2vh ;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    
+    .conteudo {
+        width:115.3vh;
+        margin: auto;
+        }
+        .gallery {
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        gap: 1.2rem;
+        overflow-y: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+    
+        }
+        .gallery::-webkit-scrollbar {
+        display: none;
+        }
+        .card {
+            background-color: #4f4f4f;
+        scroll-snap-align: start;
+        border-radius: 30px;
+        min-height: 400px;
+        min-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .card:nth-child(odd) {
+        background: linear-gradient(-229deg,
+        Jufbd52d, O ef3a7b);
+    
+        }
+        .card:nth-child(even) {
+        background: linear-gradient(-229deg,
+        Duff70af, 5fa8fs);
+        }
+    .card img{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    }
 }
-    .card:nth-child(odd) {
-    background: linear-gradient(-229deg,
-    Jufbd52d, O ef3a7b);
 
+
+@media only screen and (max-width: 700px) and (min-width:400px) {
+    .main{
+        background-color: #1e1e1e;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url("background.png");
+        align-items: center;
     }
-    .card:nth-child(even) {
-    background: linear-gradient(-229deg,
-    Duff70af, 5fa8fs);
+    .myWorkTitle{
+        color:#e35969;
+        padding-top: 10vh; ;
     }
-.card img{
-display: flex;
+    
+    .myWorkline{
+        height: 4px;
+        background-color: #e35969;
+        margin-top: 1vh;
+        width: 15vh;
+        border-radius: 20px;
+    
+    }
+    .projectName{
+        padding-top:2vh ;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    
+    .conteudo {
+        width:29.7vh;
+        margin: auto;
+     
+        }
+        .gallery {
+        display: flex;
+            flex-wrap: wrap;
+         margin: auto;
+            gap: 10px;
+        }
+        
+        .card {
+            background-color: #4f4f4f;
+        scroll-snap-align: start;
+        border-radius: 30px;
+        min-height: 200px;
+        min-width: 157px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+        .card:nth-child(odd) {
+        background: linear-gradient(-229deg,
+        Jufbd52d, O ef3a7b);
+    
+        }
+        .card:nth-child(even) {
+        background: linear-gradient(-229deg,
+        Duff70af, 5fa8fs);
+        }
+    .card img{
+    display: flex;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .main{
+        background-color: #1e1e1e;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url("background.png");
+        align-items: center;
+    }
+    .myWorkTitle{
+        color:#e35969;
+        padding-top: 10vh; ;
+    }
+    
+    .myWorkline{
+        height: 4px;
+        background-color: #e35969;
+        margin-top: 1vh;
+        width: 15vh;
+        border-radius: 20px;
+    
+    }
+    .projectName{
+        padding-top:2vh ;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    
+    .conteudo {
+        width: 26vh;
+        margin: auto;
+        margin-top: 5vh;
+        }
+        .gallery {
+        display: flex;
+            flex-wrap: wrap;
+         margin: auto;
+            gap: 10px;
+        }
+        
+        .card {
+            background-color: #4f4f4f;
+        scroll-snap-align: start;
+        border-radius: 30px;
+        min-height: 200px;
+        min-width: 157px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+        .card:nth-child(odd) {
+        background: linear-gradient(-229deg,
+        Jufbd52d, O ef3a7b);
+    
+        }
+        .card:nth-child(even) {
+        background: linear-gradient(-229deg,
+        Duff70af, 5fa8fs);
+        }
+    .card img{
+    display: flex;
+    }
 }

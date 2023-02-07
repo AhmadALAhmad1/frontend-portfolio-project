@@ -2,8 +2,8 @@ import React from "react";
 import"./MyWork.css"
 export const MyWork = () =>{
     return  <div class="main">
-            <h1 class="title">My Work</h1>
-            <div class="line"></div>
+            <h1 class="myWorkTitle">My Work</h1>
+            <div class="myWorkline"></div>
             <div class="conteudo">
                 <div class="gallery">
                

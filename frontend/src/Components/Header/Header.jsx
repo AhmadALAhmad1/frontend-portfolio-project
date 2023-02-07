@@ -5,7 +5,7 @@ import twitter from "./twitter.png"
 import facebook from "./facebook.png"
 export const Header = () =>{
     return<>
-      <div class="section1Desktop">
+      <div class="headerSection">
         
         <div class="section1Ancers">
             <a href="#" class="section1Ancer"><img class="section1AncerImg" src={github} alt="a" /></a>
@@ -28,7 +28,7 @@ export const Header = () =>{
                 
             </div>                
             <div class="skills"><p>Bootstrap</p><p>/&nbsp; </p><p>Javascript</p><p>/&nbsp;</p><p>React</p></div>
-            <button class="contactSection1Btn">Contact Me</button>
+            <a class="contactSection1Btn" href="#ContactSection">Contact Me</a>
         </div>
         <img src={github} alt="a" class="section1Img" />
     </div>
