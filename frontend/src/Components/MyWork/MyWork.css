@@ -1,6 +1,4 @@
-*{
-    border: 1px solid;
-}
+
 
 @media only screen and (min-width: 970px) and (max-width:2000vh) {
 
@@ -37,7 +35,7 @@
     
     
     .conteudo {
-        width: 125vh;
+        width: 120vh;
         margin: auto;
         }
         .gallery {
@@ -111,7 +109,7 @@
     
     
     .conteudo {
-        width:90.5vh;
+        width:100.5vh;
         margin: auto;
         }
         .gallery {
@@ -186,7 +184,7 @@
     
     
     .conteudo {
-        width:29.7vh;
+        width:23vh;
         margin: auto;
      
         }
@@ -254,15 +252,18 @@
     
     
     .conteudo {
-        width: 26vh;
+        width: 24vh;
         margin: auto;
         margin-top: 5vh;
+        
         }
         .gallery {
         display: flex;
-            flex-wrap: wrap;
          margin: auto;
             gap: 10px;
+            display: flex;
+        justify-content: center;
+        align-items: center;
         }
         
         .card {

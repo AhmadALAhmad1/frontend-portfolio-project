@@ -18,7 +18,7 @@ export const Header = () =>{
                 <h1>Hi,</h1>
                 <div class="salutMyName">
                     <h1>I'm &nbsp;</h1>
-                    <h1 class="salutName" >Hussein</h1>
+                    <h1 class="salutName" >Ousama</h1>
                     <h1>,</h1>
                 </div>
                 <div class="domain">
