@@ -18,10 +18,10 @@ function Navbar() {
       <h3>Oussama Ghomrawi</h3>
       <nav ref={navRef}>
 
-        <a href='#'>Home</a>
-        <a href='#'>My Work</a>
-        <a href='#'>Projects</a>
-        <a href='#'>Contact</a>
+        <a href='#About'>About</a>
+        <a href='#Languages'>Skills</a>
+        <a href='#Projects'>Projects</a>
+        <a href='#Contact'>Contact</a>
         <button
           className="nav-btn-nav-close-btn"
           onClick={showNavbar}>
