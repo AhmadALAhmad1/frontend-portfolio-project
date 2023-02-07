@@ -2,7 +2,7 @@
 .infoSectionProfile{
     margin-top:9vh; 
     /* display:none;    */
-    
+    /* flex-basis: 20vw; */
 }
 label{
     color:white;
