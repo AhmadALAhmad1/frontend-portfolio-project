@@ -1,25 +1,12 @@
 import React from 'react';
 import  '../About/About.css';
 import image1 from '../../assets/image1.jpg'
-// import React, { useState, useEffect } from 'react';
-// import axios from 'axios';
-
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 function About() {
-  //   const [data, setData] = useState([]);
-
-  // useEffect(() => {
-  //   axios.get('/api/data')
-  //     .then(response => {
-  //       setData(response.data);
-  //     })
-  //     .catch(error => {
-  //       console.error(error);
-  //     });
-  // }, []);
 
 
-  
 return (
     <div className='container'>
         
