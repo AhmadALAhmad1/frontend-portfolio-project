@@ -5,13 +5,13 @@
  
 @media only screen and (min-width: 970px) and (max-width:2000vh) {
 
-    .main{
+    #mywork{
         background-color: #1e1e1e;
         height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        background-image: url("background.png");
+        background-image: url("background.png") ;
         align-items: center;
     }
     .myWorkTitle{
@@ -65,7 +65,7 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 1vh;
-        margin-right: .5vh;
+        margin-right: 0.9vh;
     }
         .card:nth-child(odd) {
         background: linear-gradient(-229deg,
@@ -81,7 +81,7 @@
     }
 }
 @media only screen and (min-width: 700px) and (max-width: 970px){
-    .main{
+    #mywork{
         background-color: #1e1e1e;
         height: 150vh;
         display: flex;
@@ -140,6 +140,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1vh;
+        margin-right: 0.9vh;
+
     }
         .card:nth-child(odd) {
         background: linear-gradient(-229deg,
@@ -157,7 +160,7 @@
 
 
 @media only screen and (max-width: 700px) and (min-width:400px) {
-    .main{
+    #mywork{
         background-color: #1e1e1e;
         display: flex;
         flex-direction: column;
@@ -226,7 +229,7 @@
     }
 }
 @media only screen and (max-width: 450px) and (min-width:100px) {
-    .main{
+    #mywork{
         background-color: #1e1e1e;
         display: flex;
         flex-direction: column;

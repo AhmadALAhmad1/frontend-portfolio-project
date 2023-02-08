@@ -132,7 +132,7 @@
     }
     
     }
-    @media only screen and (max-width: 450px) {
+    @media only screen and (max-width: 450px) and (min-width:350px) {
 
       
         .background{
@@ -163,8 +163,49 @@
     
         }
         .language{
-            width: 8vh;
-            height: 8vh;
+            width: 90px;
+            height: 90px;
+            background-color:rgb(255, 255, 255);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+    }
+    @media only screen and (max-width: 350px) {
+
+      
+        .background{
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1e1e1e;
+            flex-direction: column;
+            background-image: none;
+    
+        
+        }
+        .skillsTitle{
+            color: #E35969;
+            margin-bottom:1vh;
+        }
+        .skillsLine{
+            margin-bottom: 4vh;
+            height: 4px;
+            width: 9vh;
+            background-color: #E35969;
+        }
+        .languages{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 25px;
+    
+        }
+        .language{
+            width: 60px;
+            height: 60px;
             background-color:rgb(255, 255, 255);
             border-radius: 20px;
             display: flex;

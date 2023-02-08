@@ -51,6 +51,7 @@
             width: 15vh;
             color: #e35969;
             text-decoration: none;
+            margin-top: 2vh;
         }
         .contactSection1Btn:hover{
             background-color: #e35969;
@@ -208,6 +209,7 @@
         padding: 5px 10px;
         width: 20vh;
         color: #e35969;
+        text-decoration: none;
     }
     .contactSection1Btn:hover{
         background-color: #e35969;

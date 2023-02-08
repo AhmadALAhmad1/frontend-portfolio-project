@@ -67,7 +67,7 @@
     cursor: pointer;
     color: #e35969;
 }
-@media only screen and (max-width: 600px) and (min-width:100px) {
+@media only screen and (max-width: 600px) and (min-width:400px) {
     .contact{
         display: flex;
         flex-direction: column;
@@ -103,6 +103,78 @@
     
     .contactMessage{
         height: 20vh;
+        background-color: #e35969;
+        color: white;
+    }
+    .contactName{
+        height: 4vh;
+        background-color: #e35969;
+        color: white;
+    }
+    .contactEmail{
+        height: 5vh;
+        background-color: #e35969;
+        color: white;
+    }
+    
+    .contactSubmit{
+        background-color: transparent;
+        border: #e35969 solid 0.1rem;
+        border-radius: 20px;
+        padding: 5px 10px;
+        width: 15vh;
+        color: #e35969;
+        text-decoration: none;
+        margin-top: 5vh;
+    }
+    .contactSubmit:hover{
+        background-color: #e35969;
+        cursor: pointer;
+        color: #000;
+    }
+    .contactSubmit:active{
+        background-color: #1e1e1e;
+        cursor: pointer;
+        color: #e35969;
+    }
+}
+
+@media only screen and (max-width: 420px) and (min-width:100px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        background-color: #1e1e1e;
+        align-items: center;
+    }
+    .contactTitle{
+        color: #e35969;
+        margin-bottom: 1vh;
+    }
+    .contactLine{
+        height: 4px;
+        background-color: #e35969;
+        width: 20vh;
+        margin-bottom: 20vh;
+        border-radius: 20px;
+    }
+    .contactInput{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        border: 0;
+        width: 30vh;
+        height: 35vh;
+    }
+    ::placeholder{
+        color: white;
+        
+    }
+    
+    .contactMessage{
+        height: 15vh;
         background-color: #e35969;
         color: white;
     }
