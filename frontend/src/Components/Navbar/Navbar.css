@@ -80,6 +80,8 @@ nav {
 
   header .responsive_nav {
     transform: none;
+    position: absolute;
+    z-index: 2;
   }
 
   nav .nav-btn-nav-close-btn {

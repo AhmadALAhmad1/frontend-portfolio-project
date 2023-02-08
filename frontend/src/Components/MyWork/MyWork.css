@@ -1,6 +1,4 @@
-*{
-    border: 1px solid;
-}
+
 
 
 
@@ -11,7 +9,7 @@
 @media only screen and (min-width: 970px) and (max-width:2000vh) {
 
     #mywork{
-        background-color: #1e1e1e;
+        background-color: #101010;
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -87,7 +85,7 @@
 }
 @media only screen and (min-width: 700px) and (max-width: 970px){
     #mywork{
-        background-color: #1e1e1e;
+        background-color: #101010;
         height: 150vh;
         display: flex;
         flex-direction: column;
@@ -166,7 +164,7 @@
 
 @media only screen and (max-width: 700px) and (min-width:400px) {
     #mywork{
-        background-color: #1e1e1e;
+        background-color: #101010;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -235,7 +233,7 @@
 }
 @media only screen and (max-width: 450px) and (min-width:100px) {
     #mywork{
-        background-color: #1e1e1e;
+        background-color: #101010;
         display: flex;
         flex-direction: column;
         justify-content: space-around;

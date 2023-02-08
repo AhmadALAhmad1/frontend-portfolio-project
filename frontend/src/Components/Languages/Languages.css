@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1e1e1e;
+    background-color: #101010;
     background-image: url("./background.png");
     background-position:right;
 
@@ -57,7 +57,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #1e1e1e;
+        background-color: #101010;
         flex-direction: column;
         background-image: none;
 
@@ -98,7 +98,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #1e1e1e;
+        background-color: #101010;
         flex-direction: column;
         background-image: none;
 
@@ -140,7 +140,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #1e1e1e;
+            background-color: #101010;
             flex-direction: column;
             background-image: none;
     
@@ -181,7 +181,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #1e1e1e;
+            background-color: #101010;
             flex-direction: column;
             background-image: none;
     
