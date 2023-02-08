@@ -12,7 +12,7 @@
    
 @media only screen and (min-width: 970px) and (max-width:2000vh) {
 
-    #mywork{
+    .mywork{
         background-color: #101010;
         height: 100vh;
         display: flex;

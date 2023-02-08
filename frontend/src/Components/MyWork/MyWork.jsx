@@ -1,7 +1,7 @@
 import React from "react";
 import"./MyWork.css"
 export const MyWork = () =>{
-    return  <div id="mywork">
+    return  <div id="Projects" class="mywork">
                 <h1 class="myWorkTitle">My Work</h1>
                 <div class="myWorkline"></div>
                 <div class="conteudo">

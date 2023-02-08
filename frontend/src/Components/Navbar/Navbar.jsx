@@ -21,7 +21,7 @@ function Navbar() {
         <a href='#About'>About</a>
         <a href='#Languages'>Skills</a>
         <a href='#Projects'>Projects</a>
-        <a href='#Contact'>Contact</a>
+        <a href='#ContactSection'>Contact</a>
         <button
           className="nav-btn-nav-close-btn"
           onClick={showNavbar}>

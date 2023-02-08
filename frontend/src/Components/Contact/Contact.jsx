@@ -4,7 +4,7 @@ import  '../Contact/Contact.css';
 function Contact() {
   return (
     <div>
-        <section  className='contact' id="Contact">
+        <section  className='contact' id="ContactSection">
             <div className="contact-form">
         <h1>Contact <span>Me</span></h1>
             <form action="ouzz1.96@gmail.com" method="get" enctype="text/plain">

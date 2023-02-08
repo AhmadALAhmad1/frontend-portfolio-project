@@ -2,7 +2,7 @@ import React from "react";
 import "./Languages.css"
 export const Languages = () => {
     return<>
-    <div class="background">
+    <div class="background" id="Languages">
         <h1 class="skillsTitle">Skills</h1>
         <div class="skillsLine"></div>
         <div class="languages">

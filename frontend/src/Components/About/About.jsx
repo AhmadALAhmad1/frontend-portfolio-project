@@ -8,7 +8,7 @@ function About() {
 
 
 return (
-    <div className='container'>
+    <div className='container' id='About'>
         
         <div className="content">
 
@@ -17,7 +17,7 @@ return (
             </div>
             <div className="col2">
             <div className='text'>
-                <h2>About</h2>
+                <h1>About</h1>
                 <div className="line"></div>
             
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi fugit facilis vero dolore tempore officiis ipsum quisquam. Voluptate cupiditate corporis blanditiis fuga enim laboriosam, eligendi perspiciatis sunt! Quod, dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
