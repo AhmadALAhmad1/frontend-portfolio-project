@@ -1,212 +1,111 @@
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    background-color: #1e1e1e;
-    align-items: center;
-}
-.contactTitle{
-    color: #e35969;
-    margin-bottom: 1vh;
-}
-.contactLine{
-    height: 4px;
-    background-color: #e35969;
-    width: 20vh;
-    margin-bottom: 20vh;
-    border-radius: 20px;
-}
-.contactInput{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color: white;
-    border: 0;
-    width: 80vh;
-    height: 35vh;
-}
-::placeholder{
-    color: white;
-    
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;500;600;700&family=Lemon&family=Open+Sans:wght@400;600&family=Titillium+Web:ital,wght@0,300;0,700;1,400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.contactMessage{
-    height: 20vh;
-    background-color: #e35969;
-    color: white;
-}
-.contactName{
-    height: 4vh;
-    background-color: #e35969;
-    color: white;
-}
-.contactEmail{
-    height: 5vh;
-    background-color: #e35969;
-    color: white;
+section {
+  padding: 20px 15%;
 }
 
-.contactSubmit{
-    background-color: transparent;
-    border: #e35969 solid 0.1rem;
-    border-radius: 20px;
-    padding: 5px 10px;
-    width: 15vh;
-    color: #e35969;
-    text-decoration: none;
-    margin-top: 5vh;
-}
-.contactSubmit:hover{
-    background-color: #e35969;
-    cursor: pointer;
-    color: #000;
-}
-.contactSubmit:active{
-    background-color: #1e1e1e;
-    cursor: pointer;
-    color: #e35969;
-}
-@media only screen and (max-width: 600px) and (min-width:400px) {
-    .contact{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100vh;
-        background-color: #1e1e1e;
-        align-items: center;
-    }
-    .contactTitle{
-        color: #e35969;
-        margin-bottom: 1vh;
-    }
-    .contactLine{
-        height: 4px;
-        background-color: #e35969;
-        width: 20vh;
-        margin-bottom: 20vh;
-        border-radius: 20px;
-    }
-    .contactInput{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        color: white;
-        border: 0;
-        width: 50vh;
-        height: 35vh;
-    }
-    ::placeholder{
-        color: white;
-        
-    }
-    
-    .contactMessage{
-        height: 20vh;
-        background-color: #e35969;
-        color: white;
-    }
-    .contactName{
-        height: 4vh;
-        background-color: #e35969;
-        color: white;
-    }
-    .contactEmail{
-        height: 5vh;
-        background-color: #e35969;
-        color: white;
-    }
-    
-    .contactSubmit{
-        background-color: transparent;
-        border: #e35969 solid 0.1rem;
-        border-radius: 20px;
-        padding: 5px 10px;
-        width: 15vh;
-        color: #e35969;
-        text-decoration: none;
-        margin-top: 5vh;
-    }
-    .contactSubmit:hover{
-        background-color: #e35969;
-        cursor: pointer;
-        color: #000;
-    }
-    .contactSubmit:active{
-        background-color: #1e1e1e;
-        cursor: pointer;
-        color: #e35969;
-    }
+.contact {
+  background-color: #101010;
+  height: 50%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  gap: 3rem;
 }
 
-@media only screen and (max-width: 420px) and (min-width:100px) {
-    .contact{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100vh;
-        background-color: #1e1e1e;
-        align-items: center;
-    }
-    .contactTitle{
-        color: #e35969;
-        margin-bottom: 1vh;
-    }
-    .contactLine{
-        height: 4px;
-        background-color: #e35969;
-        width: 20vh;
-        margin-bottom: 20vh;
-        border-radius: 20px;
-    }
-    .contactInput{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        color: white;
-        border: 0;
-        width: 30vh;
-        height: 35vh;
-    }
-    ::placeholder{
-        color: white;
-        
-    }
-    
-    .contactMessage{
-        height: 15vh;
-        background-color: #e35969;
-        color: white;
-    }
-    .contactName{
-        height: 4vh;
-        background-color: #e35969;
-        color: white;
-    }
-    .contactEmail{
-        height: 5vh;
-        background-color: #e35969;
-        color: white;
-    }
-    
-    .contactSubmit{
-        background-color: transparent;
-        border: #e35969 solid 0.1rem;
-        border-radius: 20px;
-        padding: 5px 10px;
-        width: 15vh;
-        color: #e35969;
-        text-decoration: none;
-        margin-top: 5vh;
-    }
-    .contactSubmit:hover{
-        background-color: #e35969;
-        cursor: pointer;
-        color: #000;
-    }
-    .contactSubmit:active{
-        background-color: #1e1e1e;
-        cursor: pointer;
-        color: #e35969;
-    }
+.contact-form {
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+span {
+  color: #e35969;
+}
+.contact-form p {
+  color: #c6c9d8bf;
+  letter-spacing: 1px;
+  line-height: 26px;
+  font-size: 1.1rem;
+  margin-bottom: 3.9rem;
+}
+
+.contact-form form {
+  position: relative;
+}
+
+.contact-form form input,
+form textarea {
+  width: 100%;
+  padding: 17px;
+  border: none;
+  outline: none;
+  background-color: #191919;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.contact-form form .btn {
+  display: inline-block;
+  background-color: #e35969;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 10p;
+  width: 220px;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
+.contact-form form .btn:hover {
+  border: 2px solid #e35969;
+  background: transparent;
+  transform: scale(1.1);
+}
+
+@media (max-width: 1570px) {
+  section {
+    padding-top: 80px 3%;
+    transition: 0.2s;
+  }
+  .contact-form h1 {
+    font-size: 60px;
+  }
+
+  .contact-form p {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 1090px) {
+  .contact {
+    gap: 2rem;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+  .contact-form {
+    order: 2;
+  }
 }

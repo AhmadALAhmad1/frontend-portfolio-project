@@ -1,6 +1,251 @@
 
     @media only screen and (min-width: 900px)   {
        
+      .border{
+          border: 3px #e35969 solid;
+          border-radius: 1rem;
+          height: 30vh;
+      }
+      .section1Ancers{
+          display: flex;
+          flex-direction: column;
+          height: 30vh;
+          justify-content: space-around;
+      }
+      .section1Ancer{
+          border: white solid;
+          border-radius: 50%;
+          height: 50px;
+          width: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .section1AncerImg{
+          width: 40px;
+  
+      }
+      .headerSection{
+          height: 80vh;
+          display: flex;
+          margin: auto;
+          align-items: center;
+          justify-content: space-around;
+          background-color: #1e1e1e;
+      }
+      .section1Content{
+          display: flex ;
+          flex-direction: column;
+          height: 40vh;
+          justify-content: space-around;
+      }
+      .domain{
+          display: flex;
+      }
+      
+      .contactSection1Btn{
+          background-color: transparent;
+          border: #e35969 solid 0.1rem;
+          border-radius: 20px;
+          padding: 5px 10px;
+          width: 15vh;
+          color: #e35969;
+          text-decoration: none;
+          margin-top: 2vh;
+      }
+      .contactSection1Btn:hover{
+          background-color: #e35969;
+          cursor: pointer;
+          color: #000;
+      }
+      .contactSection1Btn:active{
+          background-color: #1e1e1e;
+          cursor: pointer;
+          color: #e35969;
+      }
+      .section1Img{
+          width: 40vh;
+          background-color: black;
+          height: 50vh;
+          border-radius: 20px;
+          z-index: 1;
+          border-bottom:4px #e35969 solid;
+          }
+          .salutMyName{
+              display: flex;
+          }
+          .salutName{
+              color: #e35969;
+          }
+}
+
+@media only screen and (min-width: 500px) and (max-width:900px)  {
+     
+  .border{
+      border: 3px #e35969 solid;
+      border-radius: 1rem;
+      height: 30vh;
+  }
+  .section1Ancers{
+      display: flex;
+      flex-direction: column;
+      height: 30vh;
+      justify-content: space-around;
+  }
+  .section1Ancer{
+      border: white solid;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .section1AncerImg{
+      width: 40px;
+
+  }
+  .headerSection{
+      height: 70vh;
+      display: flex;
+      margin: auto;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #1e1e1e;
+  }
+  .section1Content{
+      display: flex ;
+      flex-direction: column;
+      height: 35vh;
+      justify-content: space-around;
+  }
+  .domain{
+      display: flex;
+  }
+  
+  .contactSection1Btn{
+      background-color: transparent;
+      border: #e35969 solid 0.1rem;
+      border-radius: 20px;
+      padding: 5px 10px;
+      width: 15vh;
+      color: #e35969;
+      text-decoration: none;
+  }
+  .contactSection1Btn:hover{
+      background-color: #e35969;
+      cursor: pointer;
+      color: #000;
+  }
+  .contactSection1Btn:active{
+      background-color: #1e1e1e;
+      cursor: pointer;
+      color: #e35969;
+  }
+  .section1Img{
+      width: 20vh;
+      background-color: black;
+      height: 30vh;
+      border-radius: 20px;
+      z-index: 1;
+      border-bottom:4px #e35969 solid;
+      }
+      .salutMyName{
+          display: flex;
+      }
+      .salutName{
+          color: #e35969;
+      }
+}
+@media only screen and (max-width: 500px) {
+ 
+  .border{
+     display: none;
+  }
+  .section1Ancers{
+      display: flex;
+      width: 35vh;
+      height: 10vh;
+      justify-content: space-around;
+  }
+  .section1Ancer{
+      border: white solid;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .section1AncerImg{
+      width: 40px;
+
+  }
+ 
+  .headerSection{
+      height: 140vh;
+      display: flex;
+      flex-direction: column-reverse;
+      margin: auto;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #1e1e1e;
+  }
+  .section1Content{
+      display: flex ;
+      flex-direction: column;
+      align-items: center;
+      height: 40vh;
+      justify-content: space-around;
+  }
+  .domain{
+      display: flex;
+  }
+  
+  .contactSection1Btn{
+      background-color: transparent;
+      border: #e35969 solid 0.1rem;
+      border-radius: 20px;
+      padding: 5px 10px;
+      width: 20vh;
+      color: #e35969;
+      text-decoration: none;
+  }
+  .contactSection1Btn:hover{
+      background-color: #e35969;
+      cursor: pointer;
+      color: #000;
+  }
+  .contactSection1Btn:active{
+      background-color: #1e1e1e;
+      cursor: pointer;
+      color: #e35969;
+  }
+  .section1Img{
+      width: 30vh;
+      background-color: black;
+      height: 50vh;
+      border-radius: 20px;
+      z-index: 1;
+      border-bottom:4px #e35969 solid;
+      }
+      .salutMyName{
+          display: flex;
+      }
+      .salutName{
+          color: #e35969;
+      }
+      .salut{
+          display: flex;
+          align-items: center;
+      }
+}
+
+    @media only screen and (min-width: 600px) {
+        *{
+            /* border: 1px solid; */
+            margin: 0;
+        }
         .border{
             border: 3px #e35969 solid;
             border-radius: 1rem;
@@ -51,7 +296,6 @@
             width: 15vh;
             color: #e35969;
             text-decoration: none;
-            margin-top: 2vh;
         }
         .contactSection1Btn:hover{
             background-color: #e35969;
@@ -64,9 +308,9 @@
             color: #e35969;
         }
         .section1Img{
-            width: 40vh;
+            width: 25%;
             background-color: black;
-            height: 50vh;
+            height: 80%;
             border-radius: 20px;
             z-index: 1;
             border-bottom:4px #e35969 solid;
@@ -79,86 +323,11 @@
             }
 }
 
-@media only screen and (min-width: 500px) and (max-width:900px)  {
-       
-    .border{
-        border: 3px #e35969 solid;
-        border-radius: 1rem;
-        height: 30vh;
+@media only screen and (max-width: 600px) {
+    *{
+        border: 1px solid;
+        margin: 0;
     }
-    .section1Ancers{
-        display: flex;
-        flex-direction: column;
-        height: 30vh;
-        justify-content: space-around;
-    }
-    .section1Ancer{
-        border: white solid;
-        border-radius: 50%;
-        height: 50px;
-        width: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .section1AncerImg{
-        width: 40px;
-
-    }
-    .headerSection{
-        height: 70vh;
-        display: flex;
-        margin: auto;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #1e1e1e;
-    }
-    .section1Content{
-        display: flex ;
-        flex-direction: column;
-        height: 35vh;
-        justify-content: space-around;
-    }
-    .domain{
-        display: flex;
-    }
-    
-    .contactSection1Btn{
-        background-color: transparent;
-        border: #e35969 solid 0.1rem;
-        border-radius: 20px;
-        padding: 5px 10px;
-        width: 15vh;
-        color: #e35969;
-        text-decoration: none;
-    }
-    .contactSection1Btn:hover{
-        background-color: #e35969;
-        cursor: pointer;
-        color: #000;
-    }
-    .contactSection1Btn:active{
-        background-color: #1e1e1e;
-        cursor: pointer;
-        color: #e35969;
-    }
-    .section1Img{
-        width: 20vh;
-        background-color: black;
-        height: 30vh;
-        border-radius: 20px;
-        z-index: 1;
-        border-bottom:4px #e35969 solid;
-        }
-        .salutMyName{
-            display: flex;
-        }
-        .salutName{
-            color: #e35969;
-        }
-}
-@media only screen and (max-width: 500px) {
-   
     .border{
        display: none;
     }
@@ -209,7 +378,6 @@
         padding: 5px 10px;
         width: 20vh;
         color: #e35969;
-        text-decoration: none;
     }
     .contactSection1Btn:hover{
         background-color: #e35969;
