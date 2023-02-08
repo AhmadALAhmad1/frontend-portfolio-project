@@ -1,4 +1,10 @@
 
+.skills{
+    display: flex;
+    color: #e3596994;
+}
+
+
     @media only screen and (min-width: 900px)   {
        
       .border{
@@ -88,7 +94,6 @@
   }
   .section1Ancers{
       display: flex;
-      flex-direction: column;
       height: 30vh;
       justify-content: space-around;
   }
@@ -131,6 +136,7 @@
       width: 15vh;
       color: #e35969;
       text-decoration: none;
+      
   }
   .contactSection1Btn:hover{
       background-color: #e35969;
@@ -321,6 +327,11 @@
             .salutName{
                 color: #e35969;
             }
+            .salut{
+                display: flex;
+                /* align-items: center; */
+                flex-direction: column;
+            }
 }
 
 @media only screen and (max-width: 600px) {
@@ -406,5 +417,6 @@
         .salut{
             display: flex;
             align-items: center;
+            flex-direction: column;
         }
 }

@@ -7,36 +7,43 @@ export const MyWork = () =>{
                 <div class="conteudo">
                     <div class="gallery">
 
-                        <div>
+                        <div class="fullCard">
                             <article class="card">
                                 <img src="" alt="a"/>
                             </article>
                             <h3 class="projectName">project-name</h3>
                         </div> 
-                        <div>
+                        <div class="fullCard">
                             <article class="card">
                                 <img src="" alt="a"/>
                             </article>
                             <h3 class="projectName">project-name</h3>
                         </div> 
-                        <div>
+                        <div class="fullCard">
                             <article class="card">
                                 <img src="" alt="a"/>
                             </article>
                             <h3 class="projectName">project-name</h3>
                         </div> 
-                        <div>
+                        <div class="fullCard">
                             <article class="card">
                                 <img src="" alt="a"/>
                             </article>
                             <h3 class="projectName">project-name</h3>
                         </div> 
-                        <div>
+                        <div class="fullCard">
                             <article class="card">
                                 <img src="" alt="a"/>
                             </article>
                             <h3 class="projectName">project-name</h3>
-                        </div>          
+                        </div> 
+                        <div class="fullCard">
+                            <article class="card">
+                                <img src="" alt="a"/>
+                            </article>
+                            <h3 class="projectName">project-name</h3>
+                        </div> 
+                                 
                     </div>
                 </div>
             </div>

@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemon&family=Open+Sans:wght@400;600&family=Titillium+Web:ital,wght@0,300;0,700;1,400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Titillium Web", sans-serif;
-}
+
 
 :root {
   --mainColor: #2a2a2b;
