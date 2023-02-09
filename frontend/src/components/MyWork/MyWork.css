@@ -1,0 +1,102 @@
+.myWorkline {
+  height: 4px;
+  background-color: #e35969;
+  margin-top: 1vh;
+  width: 15vh;
+  border-radius: 20px;
+  margin-bottom: 5vh;
+}
+.projectName {
+  padding-top: 2vh;
+  color: white;
+}
+
+.conteudo {
+  width: 160px;
+  margin: auto;
+}
+.gallery {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  background-color: #4f4f4f;
+  scroll-snap-align: start;
+  border-radius: 30px;
+  min-height: 200px;
+  min-width: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.card:nth-child(odd) {
+  background: linear-gradient(-229deg, Jufbd52d, O ef3a7b);
+}
+.card:nth-child(even) {
+  background: linear-gradient(-229deg, Duff70af, 5fa8fs);
+}
+.card img {
+  display: flex;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 100px) {
+  #mywork {
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("background.png");
+    align-items: center;
+  }
+  .myWorkTitle {
+    color: #e35969;
+    padding-top: 10vh;
+  }
+
+  .myWorkline {
+    height: 4px;
+    background-color: #e35969;
+    margin-top: 1vh;
+    width: 15vh;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+  }
+  .projectName {
+    padding-top: 2vh;
+    color: white;
+  }
+
+  .conteudo {
+    width: 160px;
+    margin: auto;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 10px;
+  }
+
+  .card {
+    background-color: #4f4f4f;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 200px;
+    min-width: 157px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .card:nth-child(odd) {
+    background: linear-gradient(-229deg, Jufbd52d, O ef3a7b);
+  }
+  .card:nth-child(even) {
+    background: linear-gradient(-229deg, Duff70af, 5fa8fs);
+  }
+  .card img {
+    display: flex;
+  }
+}

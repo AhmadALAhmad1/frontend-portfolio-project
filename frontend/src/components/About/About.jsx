@@ -1,12 +1,11 @@
 import React from 'react';
 import  '../About/About.css';
 import image1 from '../../assets/image1.jpg'
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+// import { useState, useEffect } from 'react';
+// import axios from 'axios';
 
 function About() {
-
-
+    
 return (
     <div className='container'>
         
