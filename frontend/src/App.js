@@ -12,7 +12,7 @@ function App() {
     <Languages></Languages>
     <MyWork></MyWork>
     <Contact></Contact>
-    {/* <AdminView></AdminView> */}
+    <AdminView></AdminView>
 
     </div>
   );
