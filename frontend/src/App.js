@@ -5,7 +5,7 @@ import './App.css';
 import { Header } from './Components/Header/Header'
 import { Languages } from './Components/Languages/Languages';
 import { MyWork } from './Components/MyWork/MyWork';
-import Contact from './components/Contact/Contact';
+// import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import Navbar from './components/Navbar/Navbar';
 

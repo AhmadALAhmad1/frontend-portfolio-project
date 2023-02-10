@@ -1,13 +1,17 @@
 
+.card:hover{
+    filter: drop-shadow(4px 5px 1px #000000cc);
+   }
+   
 @media only screen and (min-width: 970px) and (max-width:2000vh) {
 
-    .main{
-        background-color: #1e1e1e;
+    .mywork{
+        background-color: #101010;
         height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        background-image: url("background.png");
+        background-image: url("background.png") ;
         align-items: center;
     }
     .myWorkTitle{
@@ -34,7 +38,7 @@
     
     
     .conteudo {
-        width:174.6vh;
+        width: 1150px;
         margin: auto;
         }
         .gallery {
@@ -60,6 +64,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1vh;
+        margin-right: 0.9vh;
     }
         .card:nth-child(odd) {
         background: linear-gradient(-229deg,
@@ -75,8 +81,8 @@
     }
 }
 @media only screen and (min-width: 700px) and (max-width: 970px){
-    .main{
-        background-color: #1e1e1e;
+    #mywork{
+        background-color: #101010;
         height: 150vh;
         display: flex;
         flex-direction: column;
@@ -108,7 +114,7 @@
     
     
     .conteudo {
-        width:115.3vh;
+        width:632px;
         margin: auto;
         }
         .gallery {
@@ -134,6 +140,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1vh;
+        margin-right: 0.9vh;
+
     }
         .card:nth-child(odd) {
         background: linear-gradient(-229deg,
@@ -151,8 +160,8 @@
 
 
 @media only screen and (max-width: 700px) and (min-width:400px) {
-    .main{
-        background-color: #1e1e1e;
+    #mywork{
+        background-color: #101010;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -170,6 +179,7 @@
         margin-top: 1vh;
         width: 15vh;
         border-radius: 20px;
+        margin-bottom: 5vh;
     
     }
     .projectName{
@@ -183,7 +193,7 @@
     
     
     .conteudo {
-        width:29.7vh;
+        width:160px;
         margin: auto;
      
         }
@@ -218,9 +228,9 @@
     display: flex;
     }
 }
-@media only screen and (max-width: 450px) {
-    .main{
-        background-color: #1e1e1e;
+@media only screen and (max-width: 450px) and (min-width:100px) {
+    #mywork{
+        background-color: #101010;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -238,6 +248,8 @@
         margin-top: 1vh;
         width: 15vh;
         border-radius: 20px;
+        margin-bottom: 5vh;
+
     
     }
     .projectName{
@@ -251,9 +263,9 @@
     
     
     .conteudo {
-        width: 26vh;
+        width:160px;
         margin: auto;
-        margin-top: 5vh;
+     
         }
         .gallery {
         display: flex;
