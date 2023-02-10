@@ -1,0 +1,24 @@
+.DashNav{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    padding:0px 10px;
+    height: 100px;
+    align-items: center;
+}
+
+.DashNav h1{
+    font-size: 2.5rem;
+}
+.navLeft{
+    padding:0 2vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.logOut{
+    margin-bottom: 1vh;
+}

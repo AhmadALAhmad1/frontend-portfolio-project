@@ -1,0 +1,63 @@
+
+.infoSectionProfile{
+    margin-top:9vh; 
+    /* display:none;    */
+    
+}
+label{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    /* border:10px solid pink; */
+    padding-top:2vh;
+}
+.input{
+    margin:1vw;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+
+}
+input{
+    border:0;
+    border-radius:40px;
+    background-color: rgb(198, 47, 47);
+    height:0.1vh;
+
+}
+
+.save{
+    margin-top:4vw;
+    margin-left:15vw;
+    }
+.pictureSectionProfile {
+    width:56vw;
+        /* display: none; */
+        display: flex;
+flex-flow:column wrap;
+    align-items: center;
+    flex-basis: 20vh;
+padding:8vh 10vw;
+margin-top:8vh;
+}
+
+.pictureSectionProfile .imgSection img{
+    width:10vw;
+    height:auto;
+    flex-basis:20vw;
+border-radius: 15px;    
+position:relative;
+
+}
+.pinkLine{
+position:absolute;
+margin-top:-1.4vw;
+margin-left:0.7vw;
+border-bottom: 1vh solid salmon;
+border-radius:20%;
+font-size:0.5vw;
+color:transparent;
+}
+.upload{
+    margin-top:5vw;
+}
