@@ -1,4 +1,4 @@
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 600px) {
 
 
 .background{
@@ -29,8 +29,8 @@
 
 }
 .language{
-    width: 18vh;
-    height:18vh;
+    width: 25vh;
+    height: 25vh;
     background-color:white;
     border-radius: 20px;
     display: flex;
@@ -51,13 +51,16 @@
 
 }
 @media only screen and (min-width: 570px) and (max-width:820px) {
-   
+    *{
+        margin: 0;
+        border: 1px solid;
+    }
     .background{
         height: 80vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #101010;
+        background-color: #1e1e1e;
         flex-direction: column;
         background-image: none;
 
@@ -92,7 +95,10 @@
 }
 @media only screen and (max-width: 570px) and (min-width:350px) {
 
-   
+    *{
+        margin: 0;
+        border: 1px solid;
+    }
     .background{
         height: 80vh;
         display: flex;
@@ -132,45 +138,25 @@
     }
     
     }
-    @media only screen and (max-width: 450px) and (min-width:350px) {
+    .line1{
+        height: 4px;
+        border-radius: 20px;
+        background-color: #E35969;
 
-      
-        .background{
-            height: 60vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #101010;
-            flex-direction: column;
-            background-image: none;
-    
-        
-        }
-        .skillsTitle{
-            color: #E35969;
-            margin-bottom:1vh;
-        }
-        .skillsLine{
-            margin-bottom: 4vh;
-            height: 4px;
-            width: 9vh;
-            background-color: #E35969;
-        }
-        .languages{
-            display: grid;
-            grid-template-columns: auto auto auto;
-            gap: 25px;
-    
-        }
-        .language{
-            width: 90px;
-            height: 90px;
-            background-color:rgb(255, 255, 255);
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        
+    }
+    .line2{
+        height: 4px;
+        border-radius: 20px;
+        background-color: #E35969;
+        margin-right: 15px;
+
+    } 
+
+    @media only screen and (max-width: 450px) {
+
+        *{
+            margin: 0;
+            border: 1px solid;
         }
     }
     @media only screen and (max-width: 350px) {
@@ -204,8 +190,8 @@
     
         }
         .language{
-            width: 60px;
-            height: 60px;
+            width: 8vh;
+            height: 8vh;
             background-color:rgb(255, 255, 255);
             border-radius: 20px;
             display: flex;
