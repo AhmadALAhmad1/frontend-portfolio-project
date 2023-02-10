@@ -4,26 +4,28 @@ import './App.css';
 // import { AdminView } from './Components/AdminView/AdminView';
 import { Header } from './Components/Header/Header'
 import { Languages } from './Components/Languages/Languages';
-import { MyWork } from './Components/MyWork/MyWork';
-// import Contact from './components/Contact/Contact';
+import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import Navbar from './components/Navbar/Navbar';
+import MyWork from './Components/MyWork/MyWork';
+
 
 function App() {
 
-  return (
-    <div className="App">
-      <Navbar />
-      <Header></Header>
-      <About />
-      <Languages></Languages>
-      <MyWork></MyWork>
-      <Contact />
-      {/* <AdminView></AdminView> */}
+      return (
+            <>
+                  <Navbar />
+                  <Header></Header>
+                  <About />
+                  <Languages></Languages>
+                  <MyWork />
+                  <Contact />
 
-    </div>
 
-  );
+            </>
+
+      );
+
 }
 
 export default App;
