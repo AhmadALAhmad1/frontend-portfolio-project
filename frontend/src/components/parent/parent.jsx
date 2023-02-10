@@ -1,31 +1,33 @@
-import React, {useState} from "react";
-import {useEffect} from 'react';
-import axios from "axios";
+// import React, {useState} from "react";
+// import {useEffect} from 'react';
+// import axios from "axios";
 
 
-export default function Parent(){
-    // get data from API
-    const [info, getInfo] = useState('');
-    const url='http://localhost:5000/api/info/'
+// export default function Parent(){
 
-    useEffect(() => {
-        getAllInfo();
-    }, []);
+//     // get data from API
+//     const [info, setInfo] = useState([]);
+//     const url='http://localhost:5000/api/info/'
 
-    const getAllInfo =()=>(
-        axios.get(`${url}`)
-        .then((response)=>{
+//     useEffect(() => {
+//         getAllInfo();
+//     }, []);
 
-        // const AllInfo =response.data;
-        //add our data to state
-            getInfo(response.data);
-        })
-        .catch(error => console.error(`Error: ${error}`)));
-        // return(
+//     const getAllInfo =()=>(
+//         axios.get(`${url}`)
+//         .then((response)=>{
 
-        //     <p> {info.section} </p>
-        // ) 
-console.log(info)
+//         // const AllInfo =response.data;
+//         //add our data to state
+//             setInfo(response.data);
+//             console.log(response.data.data);
+//         })
+//         .catch(error => console.error(`Error: ${error}`)));
+//         // return(
 
-}
+//         //     <p> {info.section} </p>
+//         // ) 
+// // console.log(info)
+
+// }
 

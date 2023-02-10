@@ -1,38 +1,58 @@
-import React from 'react';
-import  '../About/About.css';
-import image1 from '../../assets/image1.jpg'
-// import { useState, useEffect } from 'react';
-// import axios from 'axios';
+import React from "react";
+import "../About/About.css";
+import image1 from "../../assets/image1.jpg";
+import { useState, useEffect } from "react";
+import axios from "axios";
+
+const url = "http://localhost:5000/api/info/";
 
 function About() {
-    
-return (
-    <div className='container'>
-        
-        <div className="content">
+  // get data from API
+  const [info, setInfo] = useState([]);
 
-            <div className="image1">
-            <img src={image1} alt="image1" />
-            </div>
-            <div className="col2">
-            <div className='text'>
-                <h2>About</h2>
-                <div className="line"></div>
-            
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi fugit facilis vero dolore tempore officiis ipsum quisquam. Voluptate cupiditate corporis blanditiis fuga enim laboriosam, eligendi perspiciatis sunt! Quod, dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius minima eum nesciunt nihil error id nisi corrupti quisquam explicabo dolore, voluptatem voluptates expedita ipsa obcaecati deleniti aliquam accusantium. Sint, ea?
-                    </p>
-              </div>
+  useEffect(() => {
+    getAllInfo();
+  }, []);
 
-            </div>
+  const getAllInfo = () =>
+    axios
+      .get(`${url}`)
+      .then((response) => {
+        // const AllInfo =response.data;
+        //add our data to state
+        setInfo(response.data.data);
+        console.log(response.data.data);
+      })
+      .catch((error) => console.error(`Error: ${error}`));
 
+  const project = info.find((object) => {
+    if (object.section === "About") {
+      return true;
+    }
+    return false;
+  });
+  console.log(project);
+
+  //   const numberCard = [1,2,3].map(item => {
+  //     return <div>{item}</div>
+  // })
+
+  return (
+    <div className="container">
+      <div className="content">
+        <div className="image1">
+          <img src={project?.image} alt="image1" />
         </div>
-        
-        
-        
+        <div className="col2">
+          <div className="text">
+            <h2>About</h2>
+            <div className="line"></div>
+            <p>{project?.description}</p>
+          </div>
+        </div>
+      </div>
     </div>
-
-)
+  );
 }
 
 export default About;
