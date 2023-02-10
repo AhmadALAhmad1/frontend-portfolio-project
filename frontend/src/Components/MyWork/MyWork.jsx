@@ -22,7 +22,8 @@ export default function MyWork(){
             ));
         const projectCards = info.map(object=>{ 
         if(object.section=="MyWork"){
-            return   <ProjectCard  key={object.id} img={object.image} name={object.name} />   }
+            return   <ProjectCard  key={object.id} img={object.image} name={object.name} 
+                            />   }
         else{ return null }
         })
 return   (
