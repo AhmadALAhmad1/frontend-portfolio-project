@@ -30,10 +30,8 @@ return   (
                         <h1 class="myWorkTitle">My Work</h1>
                         <div class="myWorkline"></div>
                         <div class="conteudo">
-                            <div class="gallery">
-                            <div class="gallery">
+                            <div class="gallery">                       
                                 {projectCards}
-                            </div>
                             </div>
                         </div>
                     </div>
