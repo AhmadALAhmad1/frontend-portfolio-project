@@ -18,6 +18,7 @@ export default function MyWork(){
             .then((response)=>{
             //add our data to state
                 setInfo(response.data);
+                console.log(response.data)
             })
             .catch(error => console.error(`Error : {error}`)
             ));
@@ -27,11 +28,11 @@ export default function MyWork(){
         else{ return null }
         })
 return   (
-<div id="Projects" class="mywork">
-                        <h1 class="myWorkTitle">My Work</h1>
-                        <div class="myWorkline"></div>
-                        <div class="conteudo">
-                            <div class="gallery">                       
+<div id="Projects" className="mywork">
+                        <h1 className="myWorkTitle">My Work</h1>
+                        <div className="myWorkline"></div>
+                        <div className="conteudo">
+                            <div className="gallery">                       
                                 {projectCards}
                             </div>
                         </div>
