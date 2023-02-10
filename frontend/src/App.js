@@ -4,8 +4,7 @@ import './App.css';
 // import { AdminView } from './Components/AdminView/AdminView';
 import { Header } from './Components/Header/Header'
 import { Languages } from './Components/Languages/Languages';
-import { MyWork } from './Components/MyWork/MyWork';
-import Contact from './Components/Contact/Contact';
+import  Contact from './Components/Contact/Contact';
 import About from './Components/About/About';
 import Navbar from './Components/Navbar/Navbar';
 import Parent from './Components/Parent'
@@ -16,10 +15,12 @@ function App() {
 
   return (
     <div className="App">
-
+     <Navbar />
     <Header />
+    <About />
     <Languages />
     <MyWork />
+    <Contact />
     {/* <Contact> */}
 
     </div>

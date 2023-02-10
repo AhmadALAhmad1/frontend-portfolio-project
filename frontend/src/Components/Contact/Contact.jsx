@@ -1,20 +1,28 @@
-import React from "react";
-import "./Contact.css";
 
-export const  Contact = () =>{
-  return <div id="ContactSection">
-    <div class="contact">
-      <h1 class="contactTitle">Contact me</h1>
-      <div class="contactLine"></div>
-      <div class="contactInput">
-      <input class="contactName "type="name" placeholder="Name" />
-      <input class="contactEmail "type="email" placeholder="Enter Email"/>
-      <textarea class="contactMessage "type="text" placeholder="Your Message" spellCheck="true"></textarea>
+import React from 'react'
+import  '../Contact/Contact.css';
 
-      </div>
-    <input type="submit" class="contactSubmit" />
+function Contact() {
+  return (
+    <div>
+        <section  className='contact' id="ContactSection">
+            <div className="contact-form">
+        <h1>Contact <span>Me</span></h1>
+            <form action="ouzz1.96@gmail.com" method="get" enctype="text/plain">
+                <input type="" placeholder='Your Name' required />
+                <input type="email"  name='email' id='' placeholder='E-mail' required />
+                <input type="" placeholder='Write a Subject' required />
+                <textarea name="" id="" cols="30" rows="10" placeholder='Your Message' required>
+
+                </textarea>
+                <input type="submit" name=""  value="Submit" class="btn" />
+                </form>
+            </div>
+
+          
+        </section>
     </div>
-    
-    
-  </div>
+  )
 }
+
+export default Contact
