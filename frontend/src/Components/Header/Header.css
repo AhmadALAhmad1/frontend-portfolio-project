@@ -1,103 +1,17 @@
+@media only screen and (min-width: 600px) {
 
-.skills{
-    display: flex;
-    color: #e3596994;
-}
-
-
-    @media only screen and (min-width: 900px)   {
-       
-      .border{
-          border: 3px #e35969 solid;
-          border-radius: 1rem;
-          height: 30vh;
-      }
-      .section1Ancers{
-          display: flex;
-          flex-direction: column;
-          height: 30vh;
-          justify-content: space-around;
-      }
-      .section1Ancer{
-          border: white solid;
-          border-radius: 50%;
-          height: 50px;
-          width: 50px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
-      .section1AncerImg{
-          width: 40px;
-  
-      }
-      .headerSection{
-          height: 80vh;
-          display: flex;
-          margin: auto;
-          align-items: center;
-          justify-content: space-around;
-          background-color: #101010;
-      }
-      .section1Content{
-          display: flex ;
-          flex-direction: column;
-          height: 40vh;
-          justify-content: space-around;
-      }
-      .domain{
-          display: flex;
-      }
-      
-      .contactSection1Btn{
-          background-color: transparent;
-          border: #e35969 solid 0.1rem;
-          border-radius: 20px;
-          padding: 5px 10px;
-          width: 15vh;
-          color: #e35969;
-          text-decoration: none;
-          margin-top: 2vh;
-      }
-      .contactSection1Btn:hover{
-          background-color: #e35969;
-          cursor: pointer;
-          color: #000;
-      }
-      .contactSection1Btn:active{
-          background-color: #101010;
-          cursor: pointer;
-          color: #e35969;
-      }
-      .section1Img{
-          width: 40vh;
-          background-color: black;
-          height: 50vh;
-          border-radius: 20px;
-          z-index: 1;
-          border-bottom:4px #e35969 solid;
-          }
-          .salutMyName{
-              display: flex;
-          }
-          .salutName{
-              color: #e35969;
-          }
-}
-
-@media only screen and (min-width: 500px) and (max-width:900px)  {
-     
-  .border{
+    .border {
       border: 3px #e35969 solid;
       border-radius: 1rem;
       height: 30vh;
-  }
-  .section1Ancers{
+    }
+    .section1Ancers {
       display: flex;
+      flex-direction: column;
       height: 30vh;
       justify-content: space-around;
-  }
-  .section1Ancer{
+    }
+    .section1Ancer {
       border: white solid;
       border-radius: 50%;
       height: 50px;
@@ -105,76 +19,79 @@
       display: flex;
       justify-content: center;
       align-items: center;
-  }
-  .section1AncerImg{
+    }
+    .section1AncerImg {
       width: 40px;
-
-  }
-  .headerSection{
-      height: 70vh;
+    }
+    .headerSection {
+      height: 80vh;
       display: flex;
       margin: auto;
       align-items: center;
       justify-content: space-around;
       background-color: #101010;
-  }
-  .section1Content{
-      display: flex ;
-      flex-direction: column;
-      height: 35vh;
-      justify-content: space-around;
-  }
-  .domain{
+    }
+    .section1Content {
       display: flex;
-  }
+      flex-direction: column;
+      height: 40vh;
+      justify-content: space-around;
+    }
+    .domain {
+      display: flex;
+    }
   
-  .contactSection1Btn{
+    .contactSection1Btn {
       background-color: transparent;
       border: #e35969 solid 0.1rem;
       border-radius: 20px;
       padding: 5px 10px;
-      width: 15vh;
+      width: 110px;
       color: #e35969;
       text-decoration: none;
       
-  }
-  .contactSection1Btn:hover{
+    }
+    .contactSection1Btn:hover {
       background-color: #e35969;
       cursor: pointer;
       color: #000;
-  }
-  .contactSection1Btn:active{
+    }
+    .contactSection1Btn:active {
       background-color: #101010;
       cursor: pointer;
       color: #e35969;
-  }
-  .section1Img{
-      width: 20vh;
+    }
+    .section1Img {
+      width: 25%;
       background-color: black;
-      height: 30vh;
+      height: 80%;
       border-radius: 20px;
       z-index: 1;
-      border-bottom:4px #e35969 solid;
-      }
-      .salutMyName{
-          display: flex;
-      }
-      .salutName{
-          color: #e35969;
-      }
-}
-@media only screen and (max-width: 500px) {
- 
-  .border{
-     display: none;
+      border-bottom: 4px #e35969 solid;
+    }
+    .salutMyName {
+      display: flex;
+    }
+    .salutName {
+      color: #e35969;
+    }
+    .skills{
+      display: flex;
+    }
   }
-  .section1Ancers{
+  
+  @media only screen and (max-width: 600px) {
+    
+    .border {
+      display: none;
+    }
+    .section1Ancers {
       display: flex;
       width: 35vh;
       height: 10vh;
       justify-content: space-around;
-  }
-  .section1Ancer{
+    }
+    .section1Ancer {
       border: white solid;
       border-radius: 50%;
       height: 50px;
@@ -182,13 +99,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
-  }
-  .section1AncerImg{
+    }
+    .section1AncerImg {
       width: 40px;
-
-  }
- 
-  .headerSection{
+    }
+  
+    .headerSection {
       height: 140vh;
       display: flex;
       flex-direction: column-reverse;
@@ -196,227 +112,58 @@
       align-items: center;
       justify-content: space-around;
       background-color: #101010;
-  }
-  .section1Content{
-      display: flex ;
+    }
+    .section1Content {
+      display: flex;
       flex-direction: column;
       align-items: center;
       height: 40vh;
       justify-content: space-around;
-  }
-  .domain{
+    }
+    .domain {
       display: flex;
-  }
+    }
   
-  .contactSection1Btn{
+    .contactSection1Btn {
       background-color: transparent;
       border: #e35969 solid 0.1rem;
       border-radius: 20px;
       padding: 5px 10px;
-      width: 20vh;
+      width: 110px;
       color: #e35969;
       text-decoration: none;
-  }
-  .contactSection1Btn:hover{
+  
+    }
+    .contactSection1Btn:hover {
       background-color: #e35969;
       cursor: pointer;
       color: #000;
-  }
-  .contactSection1Btn:active{
-      background-color: #101010;
+    }
+    .contactSection1Btn:active {
+      background-color: #1e1e1e;
       cursor: pointer;
       color: #e35969;
-  }
-  .section1Img{
+    }
+    .section1Img {
       width: 30vh;
       background-color: black;
       height: 50vh;
       border-radius: 20px;
       z-index: 1;
-      border-bottom:4px #e35969 solid;
-      }
-      .salutMyName{
-          display: flex;
-      }
-      .salutName{
-          color: #e35969;
-      }
-      .salut{
-          display: flex;
-          align-items: center;
-      }
-}
-
-    @media only screen and (min-width: 600px) {
-        *{
-            /* border: 1px solid; */
-            margin: 0;
-        }
-        .border{
-            border: 3px #e35969 solid;
-            border-radius: 1rem;
-            height: 30vh;
-        }
-        .section1Ancers{
-            display: flex;
-            flex-direction: column;
-            height: 30vh;
-            justify-content: space-around;
-        }
-        .section1Ancer{
-            border: white solid;
-            border-radius: 50%;
-            height: 50px;
-            width: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .section1AncerImg{
-            width: 40px;
-    
-        }
-        .headerSection{
-            height: 80vh;
-            display: flex;
-            margin: auto;
-            align-items: center;
-            justify-content: space-around;
-            background-color: #101010;
-        }
-        .section1Content{
-            display: flex ;
-            flex-direction: column;
-            height: 40vh;
-            justify-content: space-around;
-        }
-        .domain{
-            display: flex;
-        }
-        
-        .contactSection1Btn{
-            background-color: transparent;
-            border: #e35969 solid 0.1rem;
-            border-radius: 20px;
-            padding: 5px 10px;
-            width: 15vh;
-            color: #e35969;
-            text-decoration: none;
-        }
-        .contactSection1Btn:hover{
-            background-color: #e35969;
-            cursor: pointer;
-            color: #000;
-        }
-        .contactSection1Btn:active{
-            background-color: #101010;
-            cursor: pointer;
-            color: #e35969;
-        }
-        .section1Img{
-            width: 25%;
-            background-color: black;
-            height: 80%;
-            border-radius: 20px;
-            z-index: 1;
-            border-bottom:4px #e35969 solid;
-            }
-            .salutMyName{
-                display: flex;
-            }
-            .salutName{
-                color: #e35969;
-            }
-            .salut{
-                display: flex;
-                /* align-items: center; */
-                flex-direction: column;
-            }
-}
-
-@media only screen and (max-width: 600px) {
-    *{
-        border: 1px solid;
-        margin: 0;
+      border-bottom: 4px #e35969 solid;
     }
-    .border{
-       display: none;
+    .salutMyName {
+      display: flex;
     }
-    .section1Ancers{
-        display: flex;
-        width: 35vh;
-        height: 10vh;
-        justify-content: space-around;
+    .salutName {
+      color: #e35969;
     }
-    .section1Ancer{
-        border: white solid;
-        border-radius: 50%;
-        height: 50px;
-        width: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .salut {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    .section1AncerImg{
-        width: 40px;
-
+    .skills{
+      display: flex;
     }
-   
-    .headerSection{
-        height: 140vh;
-        display: flex;
-        flex-direction: column-reverse;
-        margin: auto;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #101010;
-    }
-    .section1Content{
-        display: flex ;
-        flex-direction: column;
-        align-items: center;
-        height: 40vh;
-        justify-content: space-around;
-    }
-    .domain{
-        display: flex;
-    }
-    
-    .contactSection1Btn{
-        background-color: transparent;
-        border: #e35969 solid 0.1rem;
-        border-radius: 20px;
-        padding: 5px 10px;
-        width: 20vh;
-        color: #e35969;
-    }
-    .contactSection1Btn:hover{
-        background-color: #e35969;
-        cursor: pointer;
-        color: #000;
-    }
-    .contactSection1Btn:active{
-        background-color: #101010;
-        cursor: pointer;
-        color: #e35969;
-    }
-    .section1Img{
-        width: 30vh;
-        background-color: black;
-        height: 50vh;
-        border-radius: 20px;
-        z-index: 1;
-        border-bottom:4px #e35969 solid;
-        }
-        .salutMyName{
-            display: flex;
-        }
-        .salutName{
-            color: #e35969;
-        }
-        .salut{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-        }
-}
+  }

@@ -1,27 +1,30 @@
 import React from 'react';
 import './App.css';
 // import Home from './components/Home';
-// import { AdminView } from './Components/AdminView/AdminView';
-import  Header  from './Components/Header/Header'
-import { Languages } from './Components/Languages/Languages';
-import  Contact from './Components/Contact/Contact';
-import Navbar from './Components/Navbar/Navbar';
-import MyWork from './Components/MyWork/MyWork';
-
+import Navbar from './Components/Navbar/Navbar'
+import {Header} from './Components/Header/Header'
+import About from './components/About/About'
+import {Languages} from './Components/Languages/Languages'
+import MyWork from './Components/MyWork/MyWork'
+import Contact from './Components/Contact/Contact'
 function App() {
 
   return (
     <div className="App">
-     <Navbar />
-    <Header />
-    <Languages />
-    {/* <MyWork /> */}
-    <Contact />
-    {/* <Contact> */}
+      <Navbar />
+      <Header />
+      <About />
+      <Languages />
+      <MyWork />
+      <Contact />
+
+      {/* <AdminView></AdminView> */}
+
 
     </div>
 
-  );
+      );
+
 }
 
 export default App;
