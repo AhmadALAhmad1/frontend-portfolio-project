@@ -1,12 +1,13 @@
 .card {
     background-color: #4f4f4f;
 scroll-snap-align: start;
-border-radius: 30px;
+border-radius: 20px;
 min-height: 400px;
 min-width: 300px;
 display: flex;
 align-items: center;
 justify-content: center;
+
 }
 .card:nth-child(odd) {
 background: linear-gradient(-229deg,
