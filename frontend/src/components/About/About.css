@@ -1,8 +1,4 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 
 html {
   scroll-behavior: smooth;
@@ -10,7 +6,7 @@ html {
 
 body {
   font-family: "Work Sans", sans-serif;
-  background-color: #434040;
+  background-color: #101010;
 }
 
 .container {
@@ -20,12 +16,7 @@ body {
   margin-right: auto;
 }
 
-/* .content {
-  display: grid;
-  grid-template-columns: 20% 70%;
-  grid-gap: 10%;
-  margin-top: 100px;
-} */
+
 
 .content {
   display: flex;

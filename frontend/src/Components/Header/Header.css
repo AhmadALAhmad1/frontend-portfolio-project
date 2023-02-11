@@ -1,8 +1,5 @@
 @media only screen and (min-width: 600px) {
-  * {
-    /* border: 1px solid; */
-    margin: 0;
-  }
+
   .border {
     border: 3px #e35969 solid;
     border-radius: 1rem;
@@ -32,7 +29,7 @@
     margin: auto;
     align-items: center;
     justify-content: space-around;
-    background-color: #1e1e1e;
+    background-color: #101010;
   }
   .section1Content {
     display: flex;
@@ -52,6 +49,7 @@
     width: 15vh;
     color: #e35969;
     text-decoration: none;
+    
   }
   .contactSection1Btn:hover {
     background-color: #e35969;
@@ -59,7 +57,7 @@
     color: #000;
   }
   .contactSection1Btn:active {
-    background-color: #1e1e1e;
+    background-color: #101010;
     cursor: pointer;
     color: #e35969;
   }
@@ -77,13 +75,13 @@
   .salutName {
     color: #e35969;
   }
+  .skills{
+    display: flex;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  * {
-    border: 1px solid;
-    margin: 0;
-  }
+  
   .border {
     display: none;
   }
@@ -113,7 +111,7 @@
     margin: auto;
     align-items: center;
     justify-content: space-around;
-    background-color: #1e1e1e;
+    background-color: #101010;
   }
   .section1Content {
     display: flex;
