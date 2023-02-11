@@ -3,8 +3,35 @@ import "./Header.css";
 import github from "./github.png"
 import twitter from "./twitter.png"
 import facebook from "./facebook.png"
-export const Header = () =>{
-    return<>
+import HeaderImg from './HeaderImg';
+export default function Header() {
+ // get data from API
+ const [info, setInfo] = useState([]);
+
+ useEffect(() => {
+   getAllInfo();
+ }, []);
+
+ const getAllInfo = () =>
+   axios
+     .get("http://localhost:5000/api/info/")
+     .then((response) => {
+       //add our data to state
+       setInfo(response.data.data);
+     })
+     .catch((error) => console.error(`Error : {${error}`));
+ const headerImg = info.map((object) => {
+   if (object.section === "Header") {
+     return (
+       <HeaderImg key={object.id} image={object.image}/>
+     );
+   } else {
+     return null;
+   }
+ });
+
+
+    return(
       <div class="headerSection">
         
         <div class="section1Ancers">
@@ -30,10 +57,10 @@ export const Header = () =>{
             <div class="skills"><p>Bootstrap</p><p>/&nbsp; </p><p>Javascript</p><p>/&nbsp;</p><p>React</p></div>
             <a class="contactSection1Btn" href="#ContactSection">Contact Me</a>
         </div>
-        <img src={github} alt="a" class="section1Img" />
+        {headerImg}
     </div>
     
     
-    </>
+    )
   
 }
