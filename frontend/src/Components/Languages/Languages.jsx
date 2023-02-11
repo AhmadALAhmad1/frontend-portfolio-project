@@ -22,7 +22,7 @@ export const Languages = () => {
      })
      .catch((error) => console.error(`Error : {${error}`));
  const languagesImg = info.map((object) => {
-   if (object.section === "Languages") {
+   if (object.section === "Skills") {
      return (
        <LanguagesImg key={object.id} image={object.image}/>
      );
