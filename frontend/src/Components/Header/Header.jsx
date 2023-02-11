@@ -1,9 +1,12 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
+import { useState } from 'react';
+import axios from 'axios';
 import "./Header.css";
-import github from "./github.png"
-import twitter from "./twitter.png"
-import facebook from "./facebook.png"
 import HeaderImg from './HeaderImg';
+
+import github from "./github.png";
+import twitter from "./twitter.png";
+import facebook from "./facebook.png";
 export default function Header() {
  // get data from API
  const [info, setInfo] = useState([]);

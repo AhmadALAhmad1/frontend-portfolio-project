@@ -1,6 +1,35 @@
 import React from "react";
 import "./Languages.css";
+import axios from "axios";
+import { useEffect } from "react";
+import { useState } from "react";
+import LanguagesImg from "./LanguagesImg";
 export const Languages = () => {
+
+ // get data from API
+ const [info, setInfo] = useState([]);
+
+ useEffect(() => {
+   getAllInfo();
+ }, []);
+
+ const getAllInfo = () =>
+   axios
+     .get("http://localhost:5000/api/info/")
+     .then((response) => {
+       //add our data to state
+       setInfo(response.data.data);
+     })
+     .catch((error) => console.error(`Error : {${error}`));
+ const languagesImg = info.map((object) => {
+   if (object.section === "Languages") {
+     return (
+       <LanguagesImg key={object.id} image={object.image}/>
+     );
+   } else {
+     return null;
+   }
+ });
 
   return (
     <>
@@ -9,22 +38,22 @@ export const Languages = () => {
         <div class="skillsLine"></div>
         <div class="languages">
           <p class="language">
-            <img src="" alt="img.png" />
+            {languagesImg}
           </p>
           <p class="language">
-            <img src="" alt="img.png" />
+          {languagesImg}
           </p>
           <p class="language">
-            <img src="" alt="img.png" />
+          {languagesImg}
           </p>
           <p class="language">
-            <img src="" alt="img.png" />
+          {languagesImg}
           </p>
           <p class="language">
-            <img src="" alt="img.png" />
+          {languagesImg}
           </p>
           <p class="language">
-            <img src="" alt="img.png" />
+          {languagesImg}
           </p>
         </div>
         <div class="lines2">
