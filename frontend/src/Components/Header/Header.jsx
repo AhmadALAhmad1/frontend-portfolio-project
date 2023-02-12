@@ -4,9 +4,9 @@ import axios from 'axios';
 import "./Header.css";
 import HeaderImg from './HeaderImg';
 
-import github from "./github.png";
-import twitter from "./twitter.png";
-import facebook from "./facebook.png";
+import github from "../../assets/github.png";
+import twitter from "../../assets/twitter.png";
+import facebook from "../../assets/facebook.png";
 export default function Header() {
  // get data from API
  const [info, setInfo] = useState([]);
