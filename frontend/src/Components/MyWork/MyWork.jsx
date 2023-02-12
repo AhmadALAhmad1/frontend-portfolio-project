@@ -18,7 +18,7 @@ export default function MyWork() {
       .get("http://localhost:5000/api/info/")
       .then((response) => {
         //add our data to state
-        setInfo(response.data.data);
+        setInfo(response.data);
       })
       .catch((error) => console.error(`Error : {${error}`));
   const projectCards = info.map((object) => {
