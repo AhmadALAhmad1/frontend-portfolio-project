@@ -7,6 +7,8 @@ import About from './components/About/About'
 import {Languages} from './Components/Languages/Languages'
 import MyWork from './Components/MyWork/MyWork'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/footer/Footer';
+
 function App() {
 
   return (
@@ -17,6 +19,7 @@ function App() {
       <Languages />
       <MyWork />
       <Contact />
+      <Footer />
 
       {/* <AdminView></AdminView> */}
 

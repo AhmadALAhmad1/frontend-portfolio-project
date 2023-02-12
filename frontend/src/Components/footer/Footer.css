@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    background-color: #2a2a2b;
+    align-items: center;
+}
+.footerElements{
+    display: flex;
+    justify-content: space-around;
+    width: 40vh;
+}
