@@ -1,5 +1,10 @@
+import React from 'react'
 import './Languages.css'
 
 export default function LanguagesImg(props){
-    <img src={props.image} alt="skill" />
+return(
+    <>
+        <img className='languageImg' src={props.image} alt="languages" />
+    </>
+)
 }

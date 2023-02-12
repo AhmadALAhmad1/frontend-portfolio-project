@@ -17,7 +17,7 @@
         margin-bottom:1vh;
     }
     .skillsLine{
-        margin-bottom: 4vh;
+        margin-bottom: 10vh;
         height: 4px;
         width: 9vh;
         background-color: #E35969;
@@ -29,15 +29,23 @@
     
     }
     .language{
-        width: 25vh;
-        height: 25vh;
-        background-color:white;
-        border-radius: 20px;
+        width: 125px;
+        height: 125px;
+        /* background-color:white; */
+        /* border-radius: 50px; */
+        border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
     
     }
+.languageImg{
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+    margin:10px;
+
+}
     .lines2{
         width: 30vh;
         height: 10vh;
