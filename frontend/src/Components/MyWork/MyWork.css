@@ -90,7 +90,7 @@
 @media only screen and (min-width: 700px) and (max-width: 970px){
     .mywork{
         background-color: #101010;
-        height: 150vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -278,7 +278,7 @@
         
         
         .conteudo {
-            width:300px;
+            width:240px;
             margin: auto;
             margin-top: 5vh;
             margin-bottom: 5vh;
@@ -304,8 +304,8 @@
                 background-color: #4f4f4f;
             scroll-snap-align: start;
             border-radius: 30px;
-            min-height: 250px;
-            min-width: 70px;
+            /* height: auto;
+            width: 70px; */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -324,10 +324,10 @@
             }
         .card img{
         display: flex;
+        height: auto;
+        width: 120px;
         }
         .cardImg{
             border-radius: 20px;
-            min-height: 250px;
-            min-width: 70px;
         }
     }

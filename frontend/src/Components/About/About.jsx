@@ -29,7 +29,7 @@ function About() {
     if (object.section === "About") {
       return <AboutComponent text={object.description} image={object.image} />;
     }
-    return false;
+    return null;
   });
   //   const numberCard = [1,2,3].map(item => {
   //     return <div>{item}</div>

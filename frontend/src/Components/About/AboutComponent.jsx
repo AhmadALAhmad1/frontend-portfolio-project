@@ -8,12 +8,12 @@ return(
         </div>
         <div className="col2">
           <div className="text">
-            <h2>About</h2>
+            <h1>About</h1>
             <div className="line"></div>
-            <p>{props.text}</p>
+            <p className="description">{props.text}</p>
           </div>
         </div>
-        </>
+    </>
    
 )
 }

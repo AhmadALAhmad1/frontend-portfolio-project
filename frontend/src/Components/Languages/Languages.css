@@ -20,7 +20,7 @@
         margin-bottom: 10vh;
         height: 4px;
         width: 9vh;
-        background-color: #E35969;
+        background-color: #5a4a4c;
     }
     .languages{
         display: grid;
@@ -44,7 +44,6 @@
     width: 225px;
     height: 225px;
     margin:10px;
-
 }
     .lines2{
         width: 30vh;
@@ -91,7 +90,7 @@
         .language{
             width: 200px;
             height: 200px;
-            background-color:rgb(255, 255, 255);
+            /* background-color:rgb(255, 255, 255); */
             border-radius: 20px;
             display: flex;
             align-items: center;
@@ -132,7 +131,7 @@
         .language{
             width: 150px;
             height: 150px;
-            background-color:rgb(255, 255, 255);
+            /* background-color:rgb(255, 255, 255); */
             border-radius: 20px;
             display: flex;
             align-items: center;
@@ -173,7 +172,7 @@
         .language{
             width: 100px;
             height: 100px;
-            background-color:white;
+            /* background-color:white; */
             border-radius: 20px;
             display: flex;
             align-items: center;
@@ -188,13 +187,19 @@
             background-color: #E35969;
     
         }
-        .line2{
+        /* .line2{
             height: 4px;
             border-radius: 20px;
             background-color: #E35969;
             margin-right: 15px;
     
-        } 
+        }  */
+        .languageImg{
+            border-radius: 50%;
+            width: 20vw;
+            height: 20vw;
+            margin:10px;
+        }
     
         @media only screen and (max-width: 360px) {
     
@@ -229,11 +234,17 @@
             .language{
                 width: 8vh;
                 height: 8vh;
-                background-color:rgb(255, 255, 255);
+                /* background-color:rgb(255, 255, 255); */
                 border-radius: 20px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
             
+            }
+            .languageImg{
+                border-radius: 50%;
+                width: 5vw;
+                height: 5vw;
+                margin:10px;
             }
         }

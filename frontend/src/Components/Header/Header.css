@@ -36,6 +36,7 @@
       flex-direction: column;
       height: 40vh;
       justify-content: space-around;
+      text-shadow: 1px 1px 5px #e35969;
     }
     .domain {
       display: flex;
@@ -62,9 +63,9 @@
       color: #e35969;
     }
     .section1Img {
-      width: 25%;
+      width: auto ;
+      height:300px;
       background-color: black;
-      height: 80%;
       border-radius: 20px;
       z-index: 1;
       border-bottom: 4px #e35969 solid;
@@ -77,6 +78,7 @@
     }
     .skills{
       display: flex;
+      color:#e35969;
     }
   }
   
@@ -102,6 +104,7 @@
     }
     .section1AncerImg {
       width: 40px;
+      height: auto;
     }
   
     .headerSection {
@@ -147,10 +150,11 @@
     .section1Img {
       width: 30vh;
       background-color: black;
-      height: 50vh;
+      height:auto;
       border-radius: 20px;
       z-index: 1;
       border-bottom: 4px #e35969 solid;
+    margin-bottom:-200px;
     }
     .salutMyName {
       display: flex;
@@ -165,5 +169,6 @@
     }
     .skills{
       display: flex;
+      color: #e35969;
     }
   }
