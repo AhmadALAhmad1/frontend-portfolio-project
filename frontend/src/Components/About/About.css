@@ -101,5 +101,15 @@ background-color:#e35969 ;
   .text .description{
     font-size:4vw;
   }
-
+  .text h1 {
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #e35969;
+    margin-top:15vh;
+    font-size:8vw;
+  
+  }
 }

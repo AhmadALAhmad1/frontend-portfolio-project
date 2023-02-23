@@ -122,6 +122,8 @@
       align-items: center;
       height: 40vh;
       justify-content: space-around;
+      text-shadow: 1px 1px 5px #e35969;
+
     }
     .domain {
       display: flex;

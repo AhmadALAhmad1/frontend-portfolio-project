@@ -25,6 +25,9 @@ header {
   background-color: var(--mainColor);
   color: var(--textColor);
 }
+nav{
+  z-index: 1000;
+}
 nav a {
   margin: 0 2rem;
   color: var(--textColor);
